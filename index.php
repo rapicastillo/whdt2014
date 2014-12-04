@@ -1,22 +1,4 @@
-<?php
-$photos = ["http://ocha.smugmug.com/photos/i-JWt7W7S/0/M/i-JWt7W7S-M.jpg",
-          "http://ocha.smugmug.com/photos/i-xFHp7f7/0/M/i-xFHp7f7-M.jpg",
-          "http://ocha.smugmug.com/photos/i-Nr3FmD5/0/M/i-Nr3FmD5-M.jpg",
-          "http://ocha.smugmug.com/photos/i-gvsJ225/0/M/i-gvsJ225-M.jpg",
-          "http://ocha.smugmug.com/photos/i-BdPxsNz/0/M/i-BdPxsNz-M.jpg",
-          "http://ocha.smugmug.com/photos/i-9DWXm7q/0/M/i-9DWXm7q-M.jpg",
-          "http://ocha.smugmug.com/photos/i-rppMLvC/0/M/i-rppMLvC-M.jpg",
-          "http://ocha.smugmug.com/photos/i-GH4BvRt/0/M/i-GH4BvRt-M.jpg",
-          "http://ocha.smugmug.com/photos/i-QSN9BQP/0/M/i-QSN9BQP-M.jpg",
-          "http://ocha.smugmug.com/photos/i-LR2bVP5/0/M/i-LR2bVP5-M.jpg",
-          "http://ocha.smugmug.com/photos/i-x5fVTMn/0/M/i-x5fVTMn-M.jpg",
-          "http://ocha.smugmug.com/photos/i-b2DzS3C/0/M/i-b2DzS3C-M.jpg",
-          "http://ocha.smugmug.com/photos/i-kfTZJXJ/0/M/i-kfTZJXJ-M.jpg",
-          "http://ocha.smugmug.com/photos/i-GgS3CSx/0/M/i-GgS3CSx-M.jpg",
-          "http://ocha.smugmug.com/photos/i-6JmthQg/0/M/i-6JmthQg-M.jpg",
-          "http://ocha.smugmug.com/photos/i-phRdDGB/0/M/i-phRdDGB-M.jpg"];
-
-?>
+<?php include("partials/arrays.inc"); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,6 +30,8 @@ $photos = ["http://ocha.smugmug.com/photos/i-JWt7W7S/0/M/i-JWt7W7S-M.jpg",
     </span>
   </div>
 </nav> -->
+
+
 <div id="title-area" class="slide-item">
   <div class="main-area free-flowing" style="z-index: 1000">
     <div class="fluid-container" id="actual-title">
@@ -76,7 +60,7 @@ $photos = ["http://ocha.smugmug.com/photos/i-JWt7W7S/0/M/i-JWt7W7S-M.jpg",
 <!-- People affected -->
 <div id="s2a" class="slide-item twice-window-size">
 
-  <?php for($i = 0; $i < count($photos); $i++) {?>
+  <?php for($i = 0; $i < count($photos); $i++): ?>
     <div class="circle-item free-flowing"
       data-anchor-target="#s2a"
       data-bottom-top="margin-top: 0%"
@@ -86,7 +70,7 @@ $photos = ["http://ocha.smugmug.com/photos/i-JWt7W7S/0/M/i-JWt7W7S-M.jpg",
 
     ">
   </div>
-  <?php } ?>
+  <?php endfor; ?>
 
   <div id="humanitarian-crises-is-changing" class="free-flowing highlight-gray width-40p"
       style="z-index: 100; width: 100%; text-align: center;"
@@ -313,11 +297,11 @@ $photos = ["http://ocha.smugmug.com/photos/i-JWt7W7S/0/M/i-JWt7W7S-M.jpg",
 
       <div id="title-slides-area" class="fluid-container">
           <div class="row" style=" width: 100%; height: 100%">
-            <div class="col-md-4"></div>
+            <div class="col-md-5"></div>
 
-            <div class="col-md-2" style="width:8%">
-              <div id="stats-area" class="clstxt">
-                <h3><span>In 2004</span></h3>
+            <div class="col-md-2" >
+              <div id="stats-area" class="clstxt text-right">
+                <h3><span class="color-white">Funding requested in 2004</span></h3>
               </div>
             </div>
 
@@ -326,20 +310,15 @@ $photos = ["http://ocha.smugmug.com/photos/i-JWt7W7S/0/M/i-JWt7W7S-M.jpg",
                 <h4>$<span  data-final-count="3" data-type="int">3</span>B</h4>
               </div>
             </div>
-            <div class="col-md-2" style="width:22%;">
-              <div id="stats-area"  class="clstxt">
-                <h3><span>was requested. In 2014</span></h3>
-              </div>
-            </div>
             <div class="col-md-1" >
               <div id="second-needs-graph" class="secondgrph">
                 <h4>$<span  data-final-count="17.9" data-type="float">17.9</span>B</h4>
               </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
               <div id="stats-area"  class="clstxt2">
-                <div class="clssubtxt1"><h4>more than six times the request a decade ago</h4></div>
-                <div class="clssubtxt2"><h3><span>was needed</span></h3></div>
+                <div class="clssubtxt1" class="color-white"><h4 class="color-white">more than six times the request a decade ago</h4></div>
+                <div class="clssubtxt2"><h3><span class="color-white">Funding requested in 2014</span></h3></div>
               </div>
             </div>
           </div>

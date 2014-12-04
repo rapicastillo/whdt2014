@@ -130,7 +130,7 @@ body {
   .clstxt { position: absolute; bottom: 0; }
   .clstxt2 { position: absolute; bottom: 0; height:85% }
   .clssubtxt1 { padding-bottom:100%;width:50%;height:60% }
-  .clssubtxt2 { padding-top:66%;width:70%;height:40% }
+  .clssubtxt2 { position: absolute; ;width:70%; bottom: 0; }
   .firstgrph { height: 0%; background-color: gray; position: absolute; bottom: 0; width: 75%;padding-left:22px;color:#FFF }
   .secondgrph {height: 0%; background-color: brown; position: absolute; bottom: 0; width: 75%;padding-left:10px;color:#FFF}
 }

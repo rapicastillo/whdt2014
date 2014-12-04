@@ -111,9 +111,9 @@ body {
     width: 50%;
     height: 60%; }
   #s2 .clssubtxt2 {
-    padding-top: 66%;
+    position: absolute;
     width: 70%;
-    height: 40%; }
+    bottom: 0; }
   #s2 .firstgrph {
     height: 0%;
     background-color: gray;
