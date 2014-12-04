@@ -1,5 +1,23 @@
+<?php
+$photos = ["http://ocha.smugmug.com/photos/i-JWt7W7S/0/M/i-JWt7W7S-M.jpg",
+          "http://ocha.smugmug.com/photos/i-xFHp7f7/0/M/i-xFHp7f7-M.jpg",
+          "http://ocha.smugmug.com/photos/i-Nr3FmD5/0/M/i-Nr3FmD5-M.jpg",
+          "http://ocha.smugmug.com/photos/i-gvsJ225/0/M/i-gvsJ225-M.jpg",
+          "http://ocha.smugmug.com/photos/i-BdPxsNz/0/M/i-BdPxsNz-M.jpg",
+          "http://ocha.smugmug.com/photos/i-9DWXm7q/0/M/i-9DWXm7q-M.jpg",
+          "http://ocha.smugmug.com/photos/i-rppMLvC/0/M/i-rppMLvC-M.jpg",
+          "http://ocha.smugmug.com/photos/i-GH4BvRt/0/M/i-GH4BvRt-M.jpg",
+          "http://ocha.smugmug.com/photos/i-QSN9BQP/0/M/i-QSN9BQP-M.jpg",
+          "http://ocha.smugmug.com/photos/i-LR2bVP5/0/M/i-LR2bVP5-M.jpg",
+          "http://ocha.smugmug.com/photos/i-x5fVTMn/0/M/i-x5fVTMn-M.jpg",
+          "http://ocha.smugmug.com/photos/i-b2DzS3C/0/M/i-b2DzS3C-M.jpg",
+          "http://ocha.smugmug.com/photos/i-kfTZJXJ/0/M/i-kfTZJXJ-M.jpg",
+          "http://ocha.smugmug.com/photos/i-GgS3CSx/0/M/i-GgS3CSx-M.jpg",
+          "http://ocha.smugmug.com/photos/i-6JmthQg/0/M/i-6JmthQg-M.jpg",
+          "http://ocha.smugmug.com/photos/i-phRdDGB/0/M/i-phRdDGB-M.jpg"];
+
+?>
 <!DOCTYPE html>
-<?php include("partials/arrays.inc"); ?>
 <html>
 <head>
     <link rel='stylesheet' type='text/css' href='style/bootstrap.css'/>
@@ -10,7 +28,7 @@
     <link rel="stylesheet" type="text/css" href="style/circle.css">
 </head>
 <body>
-<nav class="navbar navbar-fixed-top" data-anchor-target="#title-area" data-top-bottom="opacity: 0" data--50-top-bottom="opacity: 1">
+<!-- <nav class="navbar navbar-fixed-top" data-anchor-target="#title-area" data-top-bottom="opacity: 0" data--50-top-bottom="opacity: 1">
   <ul class="nav-list">
     <li><a href="#">1</a></li>
     <li><a href="#">2</a></li>
@@ -29,7 +47,7 @@
       Download the report
     </span>
   </div>
-</nav>
+</nav> -->
 <div id="title-area" class="slide-item">
   <div class="main-area free-flowing" style="z-index: 1000">
     <div class="fluid-container" id="actual-title">
@@ -71,22 +89,22 @@
   <?php endfor; ?>
 
   <div id="humanitarian-crises-is-changing" class="free-flowing highlight-gray width-40p"
-      style="left: 50px; z-index: 100;"
+      style="z-index: 100; width: 100%; text-align: center;"
 
       data-anchor-target="#s2a" data-target="#s2a"
-      data-bottom-top="position: fixed; bottom: 0%;"
-      data-top-bottom="bottom: 80%;"
+      data-bottom-top="position: fixed; top: 100%;"
+      data-top-bottom="top: 0%;"
 
-      data-100-top-bottom="bottom: 80%;"
+      data-100-top-bottom="top: 0%;"
 
 
     >
     THE CONTEXT OF HUMANITARIAN CRISES IS CHANGING
 
-    <div class="free-flowing highlight-subheading" data-anchor-target="#s2a"
+    <div class="free-flowing highlight-subheading text-left" data-anchor-target="#s2a"
         data-10-bottom-bottom="opacity: 1" data-100-bottom-bottom="opacity: 0">
-      <p>The funding requirements of inter-agency appeals have increasesd by 640% since 2004 to a record $19.2.</p>
-      <p>At the same time, the number of people targeted for assistance has more than doubled.</p>
+      <p>This report covers two main areas: humanitarian needs and assistance in 2013, and humanitarian trends challenges and opportunities.</p>
+      <p>This interactive uses examples from the report to highlight the impact of natural disasters, conflict, and the changing nature of crises. It also stresses the importance of partnerships to meet the needs of survivors.</p>
     </div>
   </div>
   <div class="free-flowing"  id="humanitarian-crises-cover"
@@ -107,7 +125,7 @@
     >
       <div class="canvas" style="position: relative;">
         <div class="free-flowing natural-disaster-shares" >
-          <span class="highlight-gray" style="margin-bottom: 20px;; display: inline-block">
+          <span class="highlight-gray" style="margin-bottom: 20px; display: inline-block">
             PEOPLE AFFECTED BY <span class="dark-color">CONFLICTS</span> AND<br/><span class="dark-color">NATURAL DISASTERS</span> IN 2013
           </span>
           <div style="clear: both"></div>
@@ -267,8 +285,8 @@
 
 
     <div class="free-flowing fluid-container" style="width: 100%; top: 0; z-index: 100;">
-      <div class="row">
-        <div class="col-md-12" style="margin-left: 30px">
+      <div class="row" style="margin: 0; padding: 0;">
+        <div class="col-md-12 text-center" style="margin: 0; padding: 0;">
           <div class="highlight-gray">CRISES ARE LONGER AND MORE EXPENSIVE</div>
         </div>
       </div>
@@ -280,7 +298,7 @@
             data-50-center-top="opacity:0"
             data-center-top="opacity:1"
           >
-          <p>The funding requirements of inter-agency appeals have increasesd by 640% since 2004 to a record $19.2.</p>
+          <p>The funding requirements of inter-agency appeals have increasesd by 640% since 2004 to a record $17.8 B.</p>
           <p>At the same time, the number of people targeted for assistance has more than doubled.</p>
 
           </div>
@@ -397,7 +415,7 @@
 
         <div class="col-md-3">
           <span class="highlight-gray">CAPITALIZING ON NEW OPPORTUNITIES</span>
-          <span class="highlight-subheading">Social media is still an experimental field, but through strengthening its partnerships with social media users for data collection and analysis, the humanitarian community will be able to make the most of this new opportunity.</span>
+          <span class="highlight-subheading">Social media is still an experimental field, but through strengthening partnerships with social media users for data collection and analysis, the humanitarian community will be able to make the most of this new opportunity.</span>
         </div>
       </div>
     </div>
@@ -429,7 +447,7 @@
       <div class="row">
         <div class="col-md-1">&nbsp;</div>
         <div class="col-md-3">
-          <span class="highlight-subheading" style="font-size: 18px;">The crisis in Syria is one of the worst on record given the sheer size of damages in the country and the effect on the region. Over <span> 150 agencies</span> and aid groups are working with local partners and national authorities to provide relief.</span>
+          <span class="highlight-subheading" style="font-size: 18px;">The crisis in Syria is one of the worst on record given the sheer size of damage in the country and the effect on the region. Over <span> 150 agencies</span> and aid groups are working with local partners and national authorities to provide relief.</span>
         </div>
         <div class="col-md-8">
           <!-- START OF Nikki's work -->
@@ -568,7 +586,7 @@ $(function() {
           $("#people-war-asylum").find("span").each(function(i, item) {
             $(this).stop(true, true).delay((i+1) * 5).animate({ opacity : 1 }, 50);
           });
-        }, 1000);
+        }, 200);
       }
   });
 
