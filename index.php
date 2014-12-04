@@ -76,7 +76,7 @@ $photos = ["http://ocha.smugmug.com/photos/i-JWt7W7S/0/M/i-JWt7W7S-M.jpg",
 <!-- People affected -->
 <div id="s2a" class="slide-item twice-window-size">
 
-  <?php for($i = 0; $i < count($photos); $i++): ?>
+  <?php for($i = 0; $i < count($photos); $i++) {?>
     <div class="circle-item free-flowing"
       data-anchor-target="#s2a"
       data-bottom-top="margin-top: 0%"
@@ -86,7 +86,7 @@ $photos = ["http://ocha.smugmug.com/photos/i-JWt7W7S/0/M/i-JWt7W7S-M.jpg",
 
     ">
   </div>
-  <?php endfor; ?>
+  <?php } ?>
 
   <div id="humanitarian-crises-is-changing" class="free-flowing highlight-gray width-40p"
       style="z-index: 100; width: 100%; text-align: center;"
