@@ -26,6 +26,12 @@ body {
     color: white;
   }
 }
+
+.color-white { color: #FFFFFF; }
+.color-red { color: #E40D0D; }
+.dark-color { color: black; }
+.color-blue { color: #036CB6; }
+
 .slide-item {
   position: relative;
 }
@@ -34,13 +40,90 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 150px;
+
+  background-size: cover;
 }
 
+#title-area {
+  .main-area {
+    background-color: lightgray;
+  }
+
+    .grow-from-bottom
+    {
+      bottom: 0;
+      right: 0;
+      width: inherit;
+      height: inherit;
+      background-position: 100% 100%;
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+    }
+
+  #actual-title
+  {
+    h1 {
+      font-size: 54px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-left: 30px;
+      margin-bottom: 0;
+
+    }
+  }
+
+}
+
+#s2emergency-area
+{
+  background-attachment: fixed;
+  background-image: url(../img/003-bg.png);
+  background-size: 50% 100%;
+
+  #country-affected {
+    .gray-circle-bg {
+      width: 200px;
+      height: 200px;
+      background-image:url(../img/gray-200.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+
+      .country-name {
+        padding-top:35px;
+        font-weight: 800;
+        font-size: 18px;
+      }
+    }
+  }
+  .big-number {
+    font-size: 11em;
+    font-weight: 800;
+    line-height: 69%;
+  }
+
+  .big-number-ext
+  {
+    font-size: 5em;
+    font-weight: 800;
+    line-height: 69%;
+  }
+  .big-number-detail
+  {
+    font-size: 1.7em;
+    font-weight: 700;
+  }
+
+}
 #s2 {
   background-color: whitesmoke;
   .main-area, #title-slides-area, .row { width: inherit; height: inherit;}
   .main-area { height: 100%; }
-  #title-slides-area { position: relative; background-color: whitesmoke;}
+  #title-slides-area {
+    position: relative;
+    background-image: url(../img/004-bg.png);
+    background-size: 100% 100%;
+
+  }
   #title-slides-area > .row { position: absolute; bottom: 0; }
   #title-slides-area > .row > div { height: 100%; position: relative; }
   #title-slides-area #stats-area { opacity: 0; }
@@ -52,8 +135,14 @@ body {
   .secondgrph {height: 0%; background-color: brown; position: absolute; bottom: 0; width: 75%;padding-left:10px;color:#FFF}
 }
 
+#s2a, #s1, #humanitarian-crises-cover {
+  background-image: url(../img/001-bg.png);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
 #s2a, #s2b, #s2, #s2c, #s3, #s5, #s6, #title-area, #s4 {
-  background-color: whitesmoke;
+
   .free-flowing {
     position: absolute;
     .width-40p {
@@ -67,16 +156,33 @@ body {
   }
 
   .highlight-gray {
-    background-color: #333333;
+    background-color: #e40d0d;
     color: white;
     padding: 0.5% 3%;
+    font-weight: 700;
+    font-size: 36px;
+    border: 5px solid #000;
+    border-width: 0 0 10px 0;
+  }
 
+  .highlight-blue {
+    background-color: #036CB6;
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
     font-size: 28px;
   }
 
   .highlight-subheading
   {
-    top: 60px; width: 50%; color: gray
+    font-weight: normal;
+    top: 80px; width: 50%; color: white; font-size: 26px;
+  }
+
+  &.span-width
+  {
+    width: 100%;
   }
 }
 
@@ -111,7 +217,10 @@ body {
 
     img { display: block; }
   }
-
+  .natural-disaster-shares {
+    width: 100%;
+    .highlight-gray { width: 100%; text-align: center;}
+  }
   .natural-disaster-shares .disaster-item span
   {
     display: inline-block;

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include("partials/arrays.inc"); ?>
 <html>
 <head>
     <link rel='stylesheet' type='text/css' href='style/bootstrap.css'/>
@@ -9,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="style/circle.css">
 </head>
 <body>
-<nav class="navbar navbar-fixed-top">
+<nav class="navbar navbar-fixed-top" data-anchor-target="#title-area" data-top-bottom="opacity: 0" data--50-top-bottom="opacity: 1">
   <ul class="nav-list">
     <li><a href="#">1</a></li>
     <li><a href="#">2</a></li>
@@ -30,8 +31,26 @@
   </div>
 </nav>
 <div id="title-area" class="slide-item">
-  <div class="main-area free-flowing" style="background-color: gray; z-index: 1000">
-
+  <div class="main-area free-flowing" style="z-index: 1000">
+    <div class="fluid-container" id="actual-title">
+      <div class="row">
+        <div class="col-md-8">
+          <h1 class="white-title color-white">World Humanitarian</h1>
+          <h1 class="red-title color-red" style="margin-top: 0">Data and Trends 2014</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-6 text-left">
+          <h3>An annual OCHA publication that presents global and country-level data and trend analysis about humanitarian crises and assistance</h3>
+        </div>
+      </div>
+    </div>
+    <div class="free-flowing grow-from-bottom" id="branch-1" style="height: 0%; background-image: url(img/000-title-branch-1.png)"></div>
+    <div class="free-flowing grow-from-bottom" id="branch-2" style="height: 0%; background-image: url(img/000-title-branch-2.png)"></div>
+    <div class="free-flowing grow-from-bottom" id="branch-3" style="height: 0%; background-image: url(img/000-title-branch-1-2.png)"></div>
+    <div class="free-flowing grow-from-bottom" id="circle-1" style="opacity: 0; background-image: url(img/000-title-circle.png)"></div>
+    <div class="free-flowing grow-from-bottom" id="circle-2" style="opacity: 0; background-image: url(img/000-title-circle-2.png)"></div>
   </div>
 </div>
 <div id="s1" class="slide-item" data-top-top="..." data-emit-events>
@@ -39,13 +58,13 @@
 <!-- People affected -->
 <div id="s2a" class="slide-item twice-window-size">
 
-  <?php for($i = 0; $i < 10; $i++): ?>
+  <?php for($i = 0; $i < count($photos); $i++): ?>
     <div class="circle-item free-flowing"
       data-anchor-target="#s2a"
       data-bottom-top="margin-top: 0%"
-      data-top-bottom="margin-top: -<?php echo rand(0,90) ?>%"
+      data-100-top-bottom="margin-top: -<?php echo rand(0,90) ?>%"
     style="left: <?php echo rand(0, 95); ?>%; top: <?php echo rand(0, 100); ?>%;
-        background-image: url(http://placehold.it/150x150); z-index: 95;
+        background-image: url(<?php echo $photos[$i] ?>); z-index: 95;
 
     ">
   </div>
@@ -58,6 +77,8 @@
       data-bottom-top="position: fixed; bottom: 0%;"
       data-top-bottom="bottom: 80%;"
 
+      data-100-top-bottom="bottom: 80%;"
+
 
     >
     THE CONTEXT OF HUMANITARIAN CRISES IS CHANGING
@@ -65,16 +86,18 @@
     <div class="free-flowing highlight-subheading" data-anchor-target="#s2a"
         data-10-bottom-bottom="opacity: 1" data-100-bottom-bottom="opacity: 0">
       <p>The funding requirements of inter-agency appeals have increasesd by 640% since 2004 to a record $19.2.</p>
-      <p>In the same amount of time, the number of poeple targeted has more than doubled.</p>
+      <p>At the same time, the number of people targeted for assistance has more than doubled.</p>
     </div>
   </div>
-  <div class="free-flowing"  id="humanitarian-crises-cover" style="z-index: 90; position: fixed; top: 0; left; 0; width: 100%;
-height: 100%;
-background-color: white;">
+  <div class="free-flowing"  id="humanitarian-crises-cover"
+      style="z-index: 90; position: fixed;
+              top: 0; left; 0; width: 100%;
+              height: 100%; background-color: white;">
   </div>
 
 
 </div>
+<div id="s2emergency-area" data-bottom-top="background-size: 50% 100%;" data-top-bottom="background-size: 100% 100%">
 <div id="s2b" class="slide-item twice-window-size" data-top-top="..." data-emit-events>
 
   <div class="main-area" data-anchor-target="#s2b"
@@ -82,124 +105,157 @@ background-color: white;">
     data-center-top="position: relative;" data-top-top="position: fixed; top: !0px; bottom: auto;"
     data-bottom-bottom="position: absolute; bottom: !0; top: auto;"
     >
-      <div class="canvas" style="position: relative; margin-left: 80px;">
+      <div class="canvas" style="position: relative;">
         <div class="free-flowing natural-disaster-shares" >
-          <span class="highlight-gray" style="margin-bottom: 20px; display: inline-block">
-            PEOPLE AFFECTED BY NATURAL DISASTERS IN 2013
+          <span class="highlight-gray" style="margin-bottom: 20px;; display: inline-block">
+            PEOPLE AFFECTED BY <span class="dark-color">CONFLICTS</span> AND<br/><span class="dark-color">NATURAL DISASTERS</span> IN 2013
           </span>
           <div style="clear: both"></div>
-          <span class="disaster-item">
-            <span class="text-center">China<br/>27.5</span>
-            <img src="http://placehold.it/150x150" />
-          </span>
-          <span class="disaster-item">
-            <span class="text-center">Philippines<br/>25.7</span>
-            <img src="http://placehold.it/100x100" />
-          </span>
-          <span class="disaster-item">
-            <span class="text-center">India<br/>16.7</span>
-            <img src="http://placehold.it/90x90" />
-          </span>
-          <span class="disaster-item">
-            <span class="text-center">Vietnam<br/>4.1</span>
-            <img src="http://placehold.it/40x40" />
-          </span>
-          <span class="disaster-item">
-            <span class="text-center">Thailand<br/>3.5</span>
-            <img src="http://placehold.it/40x40" />
-          </span>
-          <div class="highlight-subheading" data-anchor-target="#s2b" data-top-top="opacity: 0" data-center-center="opacity: 1;" style="margin-top: 20px; font-size: 22px;">
-            <p>The funding requirements of inter-agency appeals have increasesd by 640% since 2004 to a record $19.2.</p>
-            <p>In the same amount of time, the number of poeple targeted has more than doubled.</p>
+          <div class="fluid-container">
+            <div class="row">
+              <div class="col-md-5 text-right">
+                <div class="color-red big-number">97
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="color-red big-number-ext">MILLION</div>
+                <div class="dark-color big-number-detail">PEOPLE AFFECTED BY <span class="color-blue">NATURAL DISASTERS</span> IN 2013</div>
+              </div>
+            </div>
+            <div class="row"><div class="col-md-12">&nbsp;</div></div>
+            <div class="row" id="country-affected">
+              <div class="col-md-1"></div>
+              <div class="col-md-2 text-center">
+                <div class="gray-circle-bg text-center">
+                  <div class="color-red country-name">CHINA</div>
+                  <div class="dark-color">27.5 million</div>
+                  <div class=""><img src="img/003-people-affected.png" /></div>
+                </div>
+              </div>
+              <div class="col-md-2 text-center">
+                <div class="gray-circle-bg text-center">
+                  <div class="color-red country-name">PHILIPPINES</div>
+                  <div class="dark-color">25.7 million</div>
+                  <div class=""><img src="img/003-people-affected.png" /></div>
+                </div>
+              </div>
+              <div class="col-md-2 text-center">
+                <div class="gray-circle-bg text-center">
+                  <div class="color-red country-name">INDIA</div>
+                  <div class="dark-color">16.7 million</div>
+                  <div class=""><img src="img/003-people-affected.png" /></div>
+                </div>
+              </div>
+              <div class="col-md-2 text-center">
+                <div class="gray-circle-bg text-center">
+                  <div class="color-red country-name">VIETNAM</div>
+                  <div class="dark-color">4.1 million</div>
+                  <div class=""><img src="img/003-people-affected.png" /></div>
+                </div>
+              </div>
+              <div class="col-md-2 text-center">
+                <div class="gray-circle-bg text-center">
+                  <div class="color-red country-name">THAILAND</div>
+                  <div class="dark-color">3.5</div>
+                  <div class=""><img src="img/003-people-affected.png" /></div>
+                </div>
+              </div>
+              <div class="col-md-1"></div>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div id="number-of-affected-people" class="free-flowing" style="bottom: 0px; right: 0px; width: 300px;text-align: center;">
-        <div style="font-size: 190px; font-weight: 800; ">
-          97
-        </div>
-        <div style="font-size: 54px; margin-top: -52px">MILLION</div>
-        <div style="font-size: 18px">NUMBER OF AFFECTED PEOPLE BY NATURAL DISASTERS IN 2013</div>
-      </div>
-
-      <div class="tweetable-fact-right free-flowing" data-anchor-target="#s2b"
-
-        style="position: fixed; width: 200px; height: 200px; bottom: 50%;"
-        data-bottom-bottom="position: absolute; right: 0; bottom: 50%;"
-        data-10-bottom-bottom="right: 0px"
-        data-100-bottom-bottom="right: -200px; position: fixed;"
-      >
-      <img src="http://placehold.it/100x100" />
-      <h2>Tweetable Fact</h2>
       </div>
   </div>
 
 </div>
-<div id="s2c" class="slide-item" data-center-top="..." data-emit-events>
-  <div class="main-area ">
+<div id="s2c" class="" data-center-top="..." data-emit-events>
+  <div class="">
     <div class="fluid-container">
+      <div class="row">
+        <div class="col-md-5 text-right">
+          <div class="color-red big-number">51.2</div>
+        </div>
+        <div class="col-md-7">
+          <div class="color-red big-number-ext">MILLION</div>
+          <div class="dark-color big-number-detail">PEOPLE AFFECTED BY <span class="color-blue">NATURAL DISASTERS</span> IN 2013</div>
+        </div>
+      </div>
+      <div class="row"><div class="col-md-12">&nbsp;</div></div>
       <div class="row"><div class="col-md-12">&nbsp;</div></div>
       <div class="row">
         <div class="col-md-1"></div>
-        <div class="col-md-11">Asylum Seekers: <span style="font-weight: 800">1.2 MILLION</span></div>
+        <div class="col-md-11"><span class="color-red">ASYLUM SEEKERS:</span> <span style="font-weight: 800">1.2 MILLION</span></div>
       </div>
       <div class="row">
         <div class="col-md-1"></div>
-        <div class="col-md-8" id="people-war-asylum">
+        <div class="col-md-10" id="people-war-asylum">
           <?php for ($i = 0; $i < 12; $i ++) :?>
-            <span><img src="http://placehold.it/10x30" /></span>
+            <span><img src="img/002-people.png" /></span>
           <?php endfor; ?>
         </div>
       </div>
+
+      <div class="row"><div class="col-md-12">&nbsp;</div></div>
       <div class="row">
         <div class="col-md-1"></div>
-        <div class="col-md-11">Internally Displaced People: <span style="font-weight: 800">33.3 MILLION</span></div>
+        <div class="col-md-11"><span class="color-red">INTERNALLY DISPLACED PEOPLE:</span> <span style="font-weight: 800">33.3 MILLION</span></div>
       </div>
       <div class="row">
         <div class="col-md-1"></div>
-        <div class="col-md-8" id="people-war-idp">
+        <div class="col-md-10" id="people-war-idp">
           <?php for ($i = 0; $i < 333; $i ++) :?>
-            <span><img src="http://placehold.it/10x30" /></span>
+            <span><img src="img/002-people.png" /></span>
           <?php endfor; ?>
         </div>
       </div>
+
+      <div class="row"><div class="col-md-12">&nbsp;</div></div>
       <div class="row">
         <div class="col-md-1"></div>
-        <div class="col-md-11">Refugees: <span style="font-weight: 800">16.7 MILLION</span></div>
+        <div class="col-md-11"><span class="color-red">REFUGEES:</span> <span style="font-weight: 800">16.7 MILLION</span></div>
       </div>
       <div class="row">
         <div class="col-md-1"></div>
-        <div class="col-md-8" id="people-war-refugee">
+        <div class="col-md-10" id="people-war-refugee">
           <?php for ($i = 0; $i < 167; $i ++) :?>
-            <span><img src="http://placehold.it/10x30" /></span>
+            <span><img src="img/002-people.png" /></span>
           <?php endfor; ?>
         </div>
-      </div
+      </div>
+
+      <div class="row"><div class="col-md-12">&nbsp;</div></div>
       <div class="row">
         <div class="col-md-1"></div>
-        <div class="col-md-6">
-          <div class="highlight-gray" style="margin-top: 5px">
+        <div class="col-md-10 text-right">
+          <span class="highlight-blue" style="margin-top: 5px">
             16% INCREASE IN IDPs
-          </div>
-           <div class="highlight-subheading" data-anchor-target="#s2b" data-top-top="opacity: 0" data-center-center="opacity: 1;" style="margin-top: 20px; font-size: 22px;">
+          </span>
+           <!-- <div class="highlight-subheading" data-anchor-target="#s2b" data-top-top="opacity: 0" data-center-center="opacity: 1;" style="margin-top: 20px; font-size: 22px;">
             <p>There were 45 highly violent political conflicts in 2013. Most were intra-State conflicts in Asia and Africa.</p>
-          </div>
+          </div> -->
         </div>
       </div>
+      <div class="row"><div class="col-md-12">&nbsp;</div></div>
+
+      <div class="row">
+        <div class="col-md-5 text-right">
+          <div class="color-red big-number">148.2</div>
+        </div>
+        <div class="col-md-7">
+          <div class="color-red big-number-ext">MILLION</div>
+          <div class="dark-color big-number-detail">TOTAL COMBINED AMOUNT OF PEOPLE AFFECTED BY <span class="color-blue">CONFLICT</span> AND <span class="color-blue">NATURAL DISASTERS</span> IN 2013</div>
+        </div>
+      </div>
+
+      <div class="row"><div class="col-md-12">&nbsp;</div></div>
     </div>
-      <div id="number-of-affected-people" class="free-flowing" style="bottom: 0px; right: 0px; width: 300px;text-align: center;">
-        <div style="font-size: 150px; font-weight: 800; ">
-          51.2
-        </div>
-        <div style="font-size: 54px; margin-top: -52px">MILLION</div>
-        <div style="font-size: 18px">PEOPLE AFFECTED BY<br/>CONFLICT IN 2013</div>
-      </div>
 
   </div>
 
 
 </div>
+
+
 <div id="s2" class="slide-item" data-top-top="..." data-emit-events>
   <!-- Main area -->
   <div class="main-area"
@@ -210,11 +266,9 @@ background-color: white;">
     >
 
 
-    <div class="free-flowing" class="fluid-container" style="top: 0; z-index: 100;">
-      <div class="row"><div class="col-md-12">&nsbp;</div></div>
+    <div class="free-flowing fluid-container" style="width: 100%; top: 0; z-index: 100;">
       <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-6">
+        <div class="col-md-12" style="margin-left: 30px">
           <div class="highlight-gray">CRISES ARE LONGER AND MORE EXPENSIVE</div>
         </div>
       </div>
@@ -225,8 +279,9 @@ background-color: white;">
             data-anchor-target="#s2"
             data-50-center-top="opacity:0"
             data-center-top="opacity:1"
-          ><p>In the last ten years, the funding requirements of inter-agency appeals have increased by 640% from $3 billlion in 2004 to $17.9 billion in 2014.</p>
-          <p>In the same amount of time, the number of people targeted has more than doubled</p>
+          >
+          <p>The funding requirements of inter-agency appeals have increasesd by 640% since 2004 to a record $19.2.</p>
+          <p>At the same time, the number of people targeted for assistance has more than doubled.</p>
 
           </div>
         </div>
@@ -342,7 +397,7 @@ background-color: white;">
 
         <div class="col-md-3">
           <span class="highlight-gray">CAPITALIZING ON NEW OPPORTUNITIES</span>
-          <span class="highlight-subheading">Affected people's use of social media during crisis has become a common practice in recent years</span>
+          <span class="highlight-subheading">Social media is still an experimental field, but through strengthening its partnerships with social media users for data collection and analysis, the humanitarian community will be able to make the most of this new opportunity.</span>
         </div>
       </div>
     </div>
@@ -424,6 +479,7 @@ background-color: white;">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script src="js/skrollr.min.js"></script>
+<script src="js/custom.js"></script>
 <script type='text/javascript'>
 $(function() {
   var s = skrollr.init({
@@ -499,18 +555,20 @@ $(function() {
   $("#s2c").on("dataCenterTop", function(event, direction) {
       if (direction == "up") {
         $("#people-war-idp, #people-war-refugee, #people-war-asylum")
-          .find("span").stop(true, true).animate({ opacity: 0 }, 1000);
+          .find("span").stop(true, true).css({ opacity: 0 });
       }
       else {
-        $("#people-war-idp").find("span").each(function(i, item) {
-          $(this).stop(true, true).delay((i+1) * 10).animate({ opacity : 1 }, 50);
-        });
-        $("#people-war-refugee").find("span").each(function(i, item) {
-          $(this).stop(true, true).delay((i+1) * 10).animate({ opacity : 1 }, 50);
-        });
-        $("#people-war-asylum").find("span").each(function(i, item) {
-          $(this).stop(true, true).delay((i+1) * 10).animate({ opacity : 1 }, 50);
-        });
+        setTimeout(function() {
+          $("#people-war-idp").find("span").each(function(i, item) {
+            $(this).stop(true, true).delay((i+1) * 5).animate({ opacity : 1 }, 50);
+          });
+          $("#people-war-refugee").find("span").each(function(i, item) {
+            $(this).stop(true, true).delay((i+1) * 5).animate({ opacity : 1 }, 50);
+          });
+          $("#people-war-asylum").find("span").each(function(i, item) {
+            $(this).stop(true, true).delay((i+1) * 5).animate({ opacity : 1 }, 50);
+          });
+        }, 1000);
       }
   });
 
