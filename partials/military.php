@@ -61,7 +61,7 @@
         <div style="float:right;width:30%;text-align:left;">
            <div id="Reply-ship" class="clsdetail" style="display:none">
               <div class="detailhead">27 Ships</div>
-                <div class="detailimage"><img class="clsimg" src="images/ship.jpg"></div>
+                <div class="detailimage"><img class="clsimg" src="img/005-ship.jpg"></div>
                 <!-- <div class="detaildesc">
                   Ships Description.
                 </div> -->
