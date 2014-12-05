@@ -87,8 +87,8 @@
 
     <div class="free-flowing highlight-subheading text-left" data-anchor-target="#s2a"
         data-10-bottom-bottom="opacity: 1" data-100-bottom-bottom="opacity: 0">
-      <p>This report covers two main areas: humanitarian needs and assistance in 2013, and humanitarian trends challenges and opportunities.</p>
-      <p>This interactive uses examples from the report to highlight the impact of natural disasters, conflict, and the changing nature of crises. It also stresses the importance of partnerships to meet the needs of survivors.</p>
+      <p>In 2013 the humanitarian communitiy was confronted with emergenceies of unprecedented magnitude.</p>
+      <p>This interactive - based on the report - shows the impact of natural disasters and conflict on the millions of people affected worlwide, the changing nature of the crises and looks at the critical role that partnerships can play in meeting the needs of people affected.</p>
     </div>
   </div>
   <div class="free-flowing"  id="humanitarian-crises-cover"
@@ -163,6 +163,13 @@
                 </div>
               </div>
               <div class="col-md-1"></div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">&nbsp;</div>
+            </div>
+            <div class="row">
+              <div class="col-md-11"><span class="highlight-blue pull-right">
+                Top five countries by number of <br/>people affected by natural disasters</span></div>
             </div>
           </div>
         </div>
@@ -330,9 +337,10 @@
 
 <div id="s3" class="slide-item" data-top-top="..." data-emit-events>
   <div class="main-area"  data-bottom-top="transform:translate(0,100%);" data-anchor-target="#s3" data-top-top="transform:translate(0,0%);" style="position: fixed; top: 0; left: 0;">
-    <div id="why-partnerships-important" class="container">
-      <div class="row"><div class="col-md-1">&nbsp;</div><div class="col-md-11">&nbsp;</div></div>
-      <div class="row"><div class="col-md-1">&nbsp;</div><div class="col-md-11"><span class="highlight-gray">WHY ARE PARTNERSHIPS IMPORTANT?</span></div></div>
+    <div id="why-partnerships-important" class="fluid-container">
+      <div class="row">
+        <div class="col-md-12"><span class="highlight-gray">WHY ARE PARTNERSHIPS IMPORTANT?</span></div>
+      </div>
 
       <div class="row"><div class="col-md-1">&nbsp;</div><div class="col-md-11">&nbsp;</div></div>
 
@@ -340,32 +348,32 @@
         <div class="col-md-1"></div>
         <div class="col-md-3">
           <div class="message-answer">
-            <img src="http://placehold.it/200x200" width="100%"/>
+            <img src="img/005-socialmedia.png" width="100%"/>
           </div>
           <p></p>
         </div>
         <div class="col-md-3">
           <div class="message-answer">
-            <img src="http://placehold.it/200x200" width="100%"/>
+            <img src="img/005-agency.png" width="100%"/>
           </div>
         </div>
         <div class="col-md-3">
           <div class="message-answer">
-            <img src="http://placehold.it/200x200" width="100%"/>
+            <img src="img/005-military.png" width="100%"/>
           </div>
         </div>
       </div>
 
       <div class="row">
         <div class="col-md-1"></div>
-        <div class="col-md-3">
-          <p>Make the most of new opportunities.</p>
+        <div class="col-md-3 text-center">
+          <p class="partnership-header">Make the most of new opportunities.</p>
         </div>
-        <div class="col-md-3">
-          <p>Overcome challenges and build capacity</p>
+        <div class="col-md-3  text-center">
+          <p class="partnership-header">Overcome challenges and build capacity</p>
         </div>
-        <div class="col-md-3">
-          <p>Deliver effectively</p>
+        <div class="col-md-3 text-center">
+          <p class="partnership-header">Deliver effectively</p>
         </div>
       </div>
     </div>
@@ -375,7 +383,10 @@
 <div id="s4" class="slide-item">
   <div id="main-area">
 
-    <div id="partnerships-opportunities" class="container free-flowing" style="bottom: 0; left: 0;">
+    <div id="partnerships-opportunities" class="fluid-container free-flowing">
+      <div class="row">
+        <div class="col-md-12"><span class="highlight-gray">CAPITALIZING ON NEW OPPORTUNITIES</span></div>
+      </div>
       <div class="row">
         <div class="col-md-1">&nbsp;</div>
         <div class="col-md-4">
@@ -393,7 +404,6 @@
           </div>
 
         <div class="col-md-3">
-          <span class="highlight-gray">CAPITALIZING ON NEW OPPORTUNITIES</span>
           <span class="highlight-subheading">Social media is still an experimental field, but through strengthening partnerships with social media users for data collection and analysis, the humanitarian community will be able to make the most of this new opportunity.</span>
         </div>
       </div>
@@ -405,12 +415,8 @@
   <div id="main-area">
 
     <div id="partnerships-opportunities" class="fluid-container">
-      <div class="row"><div class="col-md-12">&nbsp;</div></div>
-      <div class="row"><div class="col-md-12">&nbsp;</div></div>
-
       <div class="row">
-        <div class="col-md-1">&nbsp;</div>
-        <div class="col-md-11">
+        <div class="col-md-12">
           <span class="highlight-gray">OVERCOMING CHALLENGES</span>
         </div>
       </div>
@@ -425,10 +431,13 @@
 
       <div class="row">
         <div class="col-md-1">&nbsp;</div>
-        <div class="col-md-3">
-          <span class="highlight-subheading" style="font-size: 18px;">The crisis in Syria is one of the worst on record given the sheer size of damage in the country and the effect on the region. Over <span> 150 agencies</span> and aid groups are working with local partners and national authorities to provide relief.</span>
+        <div class="col-md-5">
+          <span class="highlight-subheading" style="font-size: 2em;">The crisis in Syria is one of the worst on record given the sheer size of damage in the country and the effect on the region. Over <span> 150 agencies</span> and aid groups are working with local partners and national authorities to provide relief.</span>
+          <div>
+            <sub class="color-white">Hover over circles for more information.</sub>
+          </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-6">
           <!-- START OF Nikki's work -->
           <?php include("partials/challenges.php"); ?>
         </div>
@@ -442,12 +451,8 @@
   <div id="main-area">
 
     <div id="partnerships-effectiveness" class="fluid-container">
-      <div class="row"><div class="col-md-12">&nbsp;</div></div>
-      <div class="row"><div class="col-md-12">&nbsp;</div></div>
-
       <div class="row">
-        <div class="col-md-1">&nbsp;</div>
-        <div class="col-md-11">
+        <div class="col-md-12">
           <span class="highlight-gray">BUILDING CAPACITY AND IMPROVING EFFECTIVENESS IN AID DELIVERY</span>
         </div>
       </div>
@@ -456,6 +461,9 @@
         <div class="col-md-1">&nbsp;</div>
         <div class="col-md-10">
           <span class="highlight-subheading" style="font-size: 18px;">In the direct aftermath of an emergency, it can be difficult to deliver assistance to affected communities especially if a country's infrastructure has been compromised. Partnership with other relief providers can greatly enhance the overall capacity of the humanitarian community to help those in need.</span>
+          <div>
+            <sub class="color-white">Click on a square for more information</sub>
+          </div>
         </div>
       </div>
       <div class="row">
@@ -469,7 +477,14 @@
 </div>
 
 <div id="s7" class="slide-item" style="background-image: url(images/bg-last-slide.png); background-size: cover;">
+  <div class="main-area">
+  </div>
 
+  <div class="free-flowing" style="left:20px; bottom: 20px; width: 100%;">
+      <sub><strong>The information gap</strong><br/>
+          Due to the complexity of humanitarian crises, there are many gaps in the available information. Even the concepts of humanitarian needs and assistance are flexible, and there are also inherent biases in the information. To truly understand and measure impact, the humanitarian community will need to continue working on better standards and ways of collecting, sharing and using data.
+      </sub>
+    </div>
 </div>
 
 <script type='text/javascript' src='js/jquery.min.js'></script>
