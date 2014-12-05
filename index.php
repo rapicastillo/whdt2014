@@ -537,6 +537,13 @@
 <script src="js/custom.js"></script>
 <script type='text/javascript'>
 $(function() {
+
+  var uagent = navigator.userAgent.toLowerCase();
+
+  if (uagent.search("iphone") > -1 || uagent.search("android") > -1) {
+    window.location = "./index-mobile.php";
+  }
+
   var s = skrollr.init({
     keyframe: function(element,name, direction) {
         $(element).trigger(name, direction);
