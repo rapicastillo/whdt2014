@@ -1,4 +1,4 @@
-<?php include("partials/arrays.inc"); ?>
+  <?php include("partials/arrays.inc"); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,14 +37,13 @@
     <div class="fluid-container" id="actual-title">
       <div class="row">
         <div class="col-md-8">
-          <h1 class="white-title color-white">World Humanitarian</h1>
+          <h1 class="white-title dark-color">World Humanitarian</h1>
           <h1 class="red-title color-red" style="margin-top: 0">Data and Trends 2014</h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-1"></div>
         <div class="col-md-6 text-left">
-          <h3>An annual OCHA publication that presents global and country-level data and trend analysis about humanitarian crises and assistance</h3>
+          <h3 style="margin-left: 30px;">An annual OCHA publication that presents global and country-level data and trend analysis about humanitarian crises and assistance</h3>
         </div>
       </div>
     </div>
@@ -65,7 +64,7 @@
       data-anchor-target="#s2a"
       data-bottom-top="margin-top: 0%"
       data-100-top-bottom="margin-top: -<?php echo rand(0,90) ?>%"
-    style="left: <?php echo rand(0, 95); ?>%; top: <?php echo rand(0, 100); ?>%;
+    style="left: <?php echo rand(0, 80); ?>%; top: <?php echo rand(0, 100); ?>%;
         background-image: url(<?php echo $photos[$i] ?>); z-index: 95;
 
     ">
@@ -87,10 +86,33 @@
 
     <div class="free-flowing highlight-subheading text-left" data-anchor-target="#s2a"
         data-10-bottom-bottom="opacity: 1" data-100-bottom-bottom="opacity: 0">
-      <p>In 2013 the humanitarian communitiy was confronted with emergenceies of unprecedented magnitude.</p>
-      <p>This interactive - based on the report - shows the impact of natural disasters and conflict on the millions of people affected worlwide, the changing nature of the crises and looks at the critical role that partnerships can play in meeting the needs of people affected.</p>
+        <div class="fluid-container">
+          <div class="row"><div class="col-md-12">&nbsp;</div></div>
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+                <p>
+
+                In 2013 the humanitarian community was confronted with emergencies of unprecedented magnitude.
+
+              </p>
+              <p>This interactive - based on the publication - shows the impact of natural disasters and conflict on the millions of people affected worlwide, the changing nature of the crises and looks at the critical role that partnerships can play in meeting the needs of affected people.</p>
+            </div>
+            <div class="col-md-3">
+              <img src="img/graph-funding-people.png" />
+            </div>
+          </div>
+      </div>
     </div>
+
   </div>
+
+  <div class="free-flowing" data-anchor-target="#s2a"
+          data-10-bottom-bottom="opacity: 1" data-100-bottom-bottom="opacity: 0"
+          style="right: 10px; top: 50px; z-index: 100;">
+
+    </div>
+
   <div class="free-flowing"  id="humanitarian-crises-cover"
       style="z-index: 90; position: fixed;
               top: 0; left; 0; width: 100%;
@@ -169,7 +191,7 @@
             </div>
             <div class="row">
               <div class="col-md-11"><span class="highlight-blue pull-right">
-                Top five countries by number of <br/>people affected by natural disasters</span></div>
+                Top five countries by number of people affected by natural disasters</span></div>
             </div>
           </div>
         </div>
@@ -182,11 +204,11 @@
     <div class="fluid-container">
       <div class="row">
         <div class="col-md-5 text-right">
-          <div class="color-red big-number">51.2</div>
+          <div class="color-red big-number"><span style="letter-spacing: -0.09em">51</span>.2</div>
         </div>
         <div class="col-md-7">
           <div class="color-red big-number-ext">MILLION</div>
-          <div class="dark-color big-number-detail">PEOPLE AFFECTED BY <span class="color-blue">NATURAL DISASTERS</span> IN 2013</div>
+          <div class="dark-color big-number-detail">PEOPLE AFFECTED BY <span class="color-blue">CONFLICT</span> IN 2013</div>
         </div>
       </div>
       <div class="row"><div class="col-md-12">&nbsp;</div></div>
@@ -246,9 +268,9 @@
       </div>
       <div class="row"><div class="col-md-12">&nbsp;</div></div>
 
-      <div class="row">
+      <div class="row" style="padding: 120px 0px">
         <div class="col-md-5 text-right">
-          <div class="color-red big-number">148.2</div>
+          <div class="color-red big-number"><span style="-0.08em">1</span>48.2</div>
         </div>
         <div class="col-md-7">
           <div class="color-red big-number-ext">MILLION</div>
@@ -289,8 +311,8 @@
             data-50-center-top="opacity:0"
             data-center-top="opacity:1"
           >
-          <p>The funding requirements of inter-agency appeals have increasesd by 640% since 2004 to a record $17.8 B.</p>
-          <p>At the same time, the number of people targeted for assistance has more than doubled.</p>
+          <p>In the last ten years, the funding requirements of inter-agency appeals have increasesd by 600% from $3 billion in 2004 to $17.9 billion in 2014.</p>
+          <p>In the same amount of time, the number of people targeted for assistance has more than doubled.</p>
 
           </div>
         </div>
@@ -313,18 +335,18 @@
             </div>
 
             <div class="col-md-1" >
-              <div id="first-needs-graph" class="firstgrph">
-                <h4>$<span  data-final-count="3" data-type="int">3</span>B</h4>
+              <div id="first-needs-graph" class="firstgrph" style="padding-left: 0; text-align: center;">
+                <h4>$<span  data-final-count="3" data-type="int">3</span><br/><span style="font-size: 11px;">BILLION</span></h4>
               </div>
             </div>
             <div class="col-md-1" >
-              <div id="second-needs-graph" class="secondgrph">
-                <h4>$<span  data-final-count="17.9" data-type="float">17.9</span>B</h4>
+              <div id="second-needs-graph" class="secondgrph" style="padding-left: 0; text-align: center">
+                <h4>$<span  data-final-count="17.9" data-type="float">17.9</span><br/><span style="font-size: 11px;">BILLION</span></h4>
               </div>
             </div>
             <div class="col-md-3">
               <div id="stats-area"  class="clstxt2">
-                <div class="clssubtxt1" class="color-white"><h4 class="color-white">more than six times the request a decade ago</h4></div>
+                <div class="clssubtxt1" class="color-white"><h4 class="color-white">More than 6 times the request a decade ago</h4></div>
                 <div class="clssubtxt2"><h3><span class="color-white">Funding requested in 2014</span></h3></div>
               </div>
             </div>
@@ -348,7 +370,7 @@
         <div class="col-md-1"></div>
         <div class="col-md-3">
           <div class="message-answer">
-            <img src="img/005-socialmedia.png" width="100%"/>
+            <img src="img/twitter.png" width="100%"/>
           </div>
           <p></p>
         </div>
@@ -367,13 +389,13 @@
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-3 text-center">
-          <p class="partnership-header">Make the most of new opportunities.</p>
+          <p class="partnership-header">Make the most of <br/>new opportunities</p>
         </div>
         <div class="col-md-3  text-center">
-          <p class="partnership-header">Overcome challenges and build capacity</p>
+          <p class="partnership-header">Overcome challenges and<br/>build capacity</p>
         </div>
         <div class="col-md-3 text-center">
-          <p class="partnership-header">Deliver effectively</p>
+          <p class="partnership-header">Deliver<br/>effectively</p>
         </div>
       </div>
     </div>
@@ -385,26 +407,29 @@
 
     <div id="partnerships-opportunities" class="fluid-container free-flowing">
       <div class="row">
-        <div class="col-md-12"><span class="highlight-gray">CAPITALIZING ON NEW OPPORTUNITIES</span></div>
+        <div class="col-md-12"><span class="highlight-gray">MAKING THE MOST OF NEW OPPORTUNITIES</span></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">&nbsp;</div>
       </div>
       <div class="row">
         <div class="col-md-1">&nbsp;</div>
-        <div class="col-md-4">
+
+          <div class="col-md-5">
             <div class="message-answer">
-              <img src="http://placehold.it/200x200" width="100%"/>
+              <img src="img/social-media.png" width="100%"/>
             </div>
             <p></p>
           </div>
 
-          <div class="col-md-4">
-            <div class="message-answer">
-              <img src="http://placehold.it/200x200" width="100%"/>
-            </div>
-            <p></p>
-          </div>
-
-        <div class="col-md-3">
-          <span class="highlight-subheading">Social media is still an experimental field, but through strengthening partnerships with social media users for data collection and analysis, the humanitarian community will be able to make the most of this new opportunity.</span>
+        <div class="col-md-5">
+          <span class="highlight-blue">SOCIAL MEDIA</span>
+          </br>
+          <span class="highlight-subheading">
+            <p>Social media is still an experimental field, but through strengthening partnerships with social media users for data collection and analysis, the humanitarian community will be able to make the most of this new opportunity.</p>
+            <p>Twitter in particular, is providing a new avenue of valuable data. To make the most of it, we first need to understand who is using it and how.
+            </p>
+          </span>
         </div>
       </div>
     </div>
@@ -432,7 +457,9 @@
       <div class="row">
         <div class="col-md-1">&nbsp;</div>
         <div class="col-md-5">
-          <span class="highlight-subheading" style="font-size: 2em;">The crisis in Syria is one of the worst on record given the sheer size of damage in the country and the effect on the region. Over <span> 150 agencies</span> and aid groups are working with local partners and national authorities to provide relief.</span>
+          <span class="highlight-blue">CASE STUDY: SYRIA</span>
+          </br>
+          <span class="highlight-subheading" style="font-size: 2em;"><PA>The crisis in Syria is one of the worst on record given the sheer size of damage in the country and the effect on the region. Over <span> 150 agencies</span> and aid groups are working with local partners and national authorities to provide relief.</span>
           <div>
             <sub class="color-white">Hover over circles for more information.</sub>
           </div>
@@ -447,20 +474,20 @@
 </div>
 
 
-<div id="s6" class="slide-item">
+<div id="s6" class="slide-item" style="background-size: cover; background-attachment: scroll;">
   <div id="main-area">
 
     <div id="partnerships-effectiveness" class="fluid-container">
       <div class="row">
         <div class="col-md-12">
-          <span class="highlight-gray">BUILDING CAPACITY AND IMPROVING EFFECTIVENESS IN AID DELIVERY</span>
+          <span class="highlight-gray">DELIVERING EFFECTIVELY</span>
         </div>
       </div>
       <div class="row"><div class="col-md-12">&nbsp;</div></div>
       <div class="row">
         <div class="col-md-1">&nbsp;</div>
         <div class="col-md-10">
-          <span class="highlight-subheading" style="font-size: 18px;">In the direct aftermath of an emergency, it can be difficult to deliver assistance to affected communities especially if a country's infrastructure has been compromised. Partnership with other relief providers can greatly enhance the overall capacity of the humanitarian community to help those in need.</span>
+          <span class="highlight-subheading" style="font-size: 18px;">In the direct aftermath of an emergency, it can be difficult to deliver assistance to affected communities especially if a country's infrastructure has been compromised. Partnerships with other relief providers can greatly enhance the overall capacity of the humanitarian community to help those in need. Directly after Super Typhoon Haiyan, foreign military assets were key in delivering relief.</span>
           <div>
             <sub class="color-white">Click on a square for more information</sub>
           </div>
@@ -478,9 +505,30 @@
 
 <div id="s7" class="slide-item" style="background-image: url(images/bg-last-slide.png); background-size: cover;">
   <div class="main-area">
+    <div class="fluid-container">
+      <div class="row">
+        <div class="col-md-12">&nbsp;</div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5 color-white" style="background-color: rgba(0,0,0, 0.7)">
+          <div>
+            <p>This report is just one part of OCHA's efforts to improve data and analysis on humanitarian situations worldwide and build a humanitarian data commmunity.</p>
+            <p>For more information on the report:</p>
+            <ul sytle="list-style: none;">
+              <li>Download the full report</li>
+              <li>Download the highlights page and global challenges</li>
+              <li><a href="downloads/WHDT-images.zip">Download the graphics</a></li>
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
   </div>
 
-  <div class="free-flowing" style="left:20px; bottom: 20px; width: 100%;">
+  <div class="free-flowing color-white" style="left:20px; bottom: 20px; width: 90%; background-color: rgba(0, 0, 0, 0.7); padding: 5px 10px 10px;">
       <sub><strong>The information gap</strong><br/>
           Due to the complexity of humanitarian crises, there are many gaps in the available information. Even the concepts of humanitarian needs and assistance are flexible, and there are also inherent biases in the information. To truly understand and measure impact, the humanitarian community will need to continue working on better standards and ways of collecting, sharing and using data.
       </sub>
@@ -491,15 +539,16 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script src="js/skrollr.min.js"></script>
+<script src="js/skrollr-ie.min.js"></script>
 <script src="js/custom.js"></script>
 <script type='text/javascript'>
 $(function() {
   var s = skrollr.init({
     keyframe: function(element,name, direction) {
-      console.log("XXX", element, name, direction);
         $(element).trigger(name, direction);
     }
     ,
+    forceHeight: false,
     edgeStrategy: 'set',
       easing: {
         WTF: Math.random
@@ -595,7 +644,6 @@ $(function() {
   });
 
   $("#Reply-open-ship").on("click", function () {
-    console.log("CLICKED");
       $("div#Reply-ship").show("slow");
       $("div#Reply-aircraft").hide("slow");
       $("div#Reply-helicopter").hide("slow");

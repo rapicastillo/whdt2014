@@ -75,10 +75,13 @@ body {
   #s2emergency-area .big-number-ext {
     font-size: 5em;
     font-weight: 800;
-    line-height: 69%; }
+    line-height: 69%;
+    margin-bottom: 12px; }
   #s2emergency-area .big-number-detail {
     font-size: 1.7em;
-    font-weight: 700; }
+    font-weight: 700;
+    letter-spacing: -0.007em;
+    line-height: 0.9em; }
 
 #s2 {
   background-color: whitesmoke; }
@@ -144,10 +147,11 @@ body {
   width: inherit;
   height: inherit; }
 #s2a .partnership-header, #s2b .partnership-header, #s2 .partnership-header, #s2c .partnership-header, #s3 .partnership-header, #s5 .partnership-header, #s6 .partnership-header, #title-area .partnership-header, #s4 .partnership-header, #s7 .partnership-header {
-  font-size: 22px;
+  font-size: 1.2em;
   font-weight: 700;
   text-transform: uppercase;
-  color: white; }
+  color: white;
+  line-height: 1.1em; }
 #s2a .highlight-gray, #s2b .highlight-gray, #s2 .highlight-gray, #s2c .highlight-gray, #s3 .highlight-gray, #s5 .highlight-gray, #s6 .highlight-gray, #title-area .highlight-gray, #s4 .highlight-gray, #s7 .highlight-gray {
   background-color: #e40d0d;
   color: white;
@@ -165,14 +169,18 @@ body {
   display: inline-block;
   color: white;
   font-weight: 700;
-  font-size: 28px; }
+  font-size: 1em; }
 #s2a .highlight-subheading, #s2b .highlight-subheading, #s2 .highlight-subheading, #s2c .highlight-subheading, #s3 .highlight-subheading, #s5 .highlight-subheading, #s6 .highlight-subheading, #title-area .highlight-subheading, #s4 .highlight-subheading, #s7 .highlight-subheading {
   font-weight: normal;
   top: 80px;
   width: 50%;
   color: white;
-  font-size: 26px; }
+  font-size: 26px;
+  left: 0; }
 #s2a.span-width, #s2b.span-width, #s2.span-width, #s2c.span-width, #s3.span-width, #s5.span-width, #s6.span-width, #title-area.span-width, #s4.span-width, #s7.span-width {
+  width: 100%; }
+
+#s2a .highlight-subheading {
   width: 100%; }
 
 #s2c span.people-affected-img {
@@ -351,7 +359,8 @@ body {
     height: 30px;
     /*90*/
     font-family: 'Open Sans', Arial, sans-serif;
-    word-wrap: break-word; }
+    word-wrap: break-word;
+    margin-bottom: 20px; }
   #s5 .ch-info p {
     color: #fff;
     padding: 10px 10px;
@@ -506,6 +515,7 @@ body {
     font-weight: 500;
     color: #333; }
   #s6 .clsblock {
+    vertical-align: top;
     float: inherit;
     display: inline-block;
     padding: 10px 20px 10px 20px;
@@ -521,7 +531,7 @@ body {
   #s6 .detailhead {
     font-size: 30px;
     font-weight: 800;
-    color: #DB423E; }
+    color: white; }
   #s6 .detaildesc {
     font-size: 18px;
     font-weight: bold;
@@ -543,6 +553,10 @@ body {
   #s6 .clsblock:hover img {
     opacity: .6;
     background: #db423e; }
+  #s6 .maincotainer .subcontainer .clsblock img {
+    width: 80px; }
+  #s6 .detailimage .clsimg {
+    height: 200px; }
 
 #s3, #s4, #s5, #s6 {
   background-image: url(../img/005-bg.png);
