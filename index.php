@@ -446,12 +446,6 @@
         </div>
       </div>
       <div class="row"><div class="col-md-12">&nbsp;</div></div>
-
-      <div class="row">
-        <div class="col-md-1">&nbsp;</div>
-      </div>
-
-      <div class="row"><div class="col-md-12">&nbsp;</div></div>
       <div class="row"><div class="col-md-12">&nbsp;</div></div>
 
       <div class="row">
@@ -503,26 +497,26 @@
   </div>
 </div>
 
-<div id="s7" class="slide-item" style="background-image: url(images/bg-last-slide.png); background-size: cover;">
+<div id="s7" class="slide-item" style="background-image: url(img/last-background.png); background-size: cover;">
   <div class="main-area">
     <div class="fluid-container">
       <div class="row">
         <div class="col-md-12">&nbsp;</div>
       </div>
       <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5 color-white" style="background-color: rgba(0,0,0, 0.7)">
-          <div>
-            <p>This report is just one part of OCHA's efforts to improve data and analysis on humanitarian situations worldwide and build a humanitarian data commmunity.</p>
-            <p>For more information on the report:</p>
-            <ul sytle="list-style: none;">
-              <li>Download the full report</li>
-              <li>Download the highlights page and global challenges</li>
-              <li><a href="downloads/WHDT-images.zip">Download the graphics</a></li>
+        <div class="col-md-3 dark-color">
+          <div style="margin-left: 10px; font-size: 1em;">
+            <ul sytle="list-style: none;" id="final-links">
+              <li style="background-image: url(img/last-report.png);"><a href="downloads/World Humanitarian Data and Trends 2014.pdf" target="_blank">Download the<br/>full report</a></li>
+              <li style="background-image: url(img/last-highlights.png);"><a href="downloads/data-trends-highlights.pdf" target="_blank">Download the<br/>highlights page</a></li>
+              <li style="background-image: url(img/last-global.png);"><a href="downloads/global-risks.pdf" target="_blank">Download the<br/>global challenges page</a></li>
+              <li style="background-image: url(img/last-graphs.png);"><a href="downloads/WHDT-images.zip" target="_blank">Download the<br/>graphics</a></li>
+              <li style="background-image: url(img/last-hdx-2.png);"><a href="https://data.hdx.rwlabs.org/dataset/world-humanitarian-data-and-trends
+" target="_blank">Download the<br/>data</a></li>
             </ul>
           </div>
         </div>
-
+      <div class="col-md-7" style="font-size: 1.5em"><p>This report is just one part of OCHA's efforts to improve data and analysis on humanitarian situations worldwide and build a humanitarian data commmunity.</p></div>
 
       </div>
     </div>
