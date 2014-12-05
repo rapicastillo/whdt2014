@@ -67,7 +67,7 @@
                 </div> -->
            </div>
            <div id="Reply-aircraft" class="clsdetail">
-              <div class="detailhead">72 Aircrafts</div>
+              <div class="detailhead">72 Aircraft</div>
                 <div class="detailimage"><img class="clsimg" src="img/military-aircraft.jpg"></div>
                 <!-- <div class="detaildesc">Strategic airlifts of food, shelter, health facilities and water purification unites</div> -->
            </div>
