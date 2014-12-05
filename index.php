@@ -8,6 +8,7 @@
     <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,800'/>
 
     <link rel="stylesheet" type="text/css" href="style/circle.css">
+    <title>World Humanitarian Data and Trends 2014</title>
 </head>
 <body>
 <!-- <nav class="navbar navbar-fixed-top" data-anchor-target="#title-area" data-top-bottom="opacity: 0" data--50-top-bottom="opacity: 1">
