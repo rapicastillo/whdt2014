@@ -33,6 +33,7 @@
 </nav> -->
 
 
+
 <div id="title-area" class="slide-item">
   <div class="main-area free-flowing" style="z-index: 1000">
     <div class="fluid-container" id="actual-title">
@@ -686,11 +687,14 @@ $(function() {
   });
 });
 </script>
-<script type="text/script">
-$(function () {
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-
-});//]]>
+  ga('create', 'UA-1433955-15', 'auto');
+  ga('send', 'pageview');
 
 </script>
 </body>
