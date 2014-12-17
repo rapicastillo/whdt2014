@@ -71,7 +71,7 @@
             <h4><span class='red'>Asylum Seekers:</span> <span class='black'>1.2 million</span></h4>
           </div>
           <div class='col-sm-12 people-area'>
-            <?php for ($i = 0; $i < 12; $i++): ?>
+            <?php for ($i = 0; $i < 6; $i++): ?>
               <img src='mob/4-people.png' />
             <?php endfor; ?>
           </div>
@@ -80,7 +80,7 @@
             <h4><span class='red'>Internally displaced people:</span> <span class='black' style='display: inline-block'>33.3 million</span></h4>
           </div>
           <div class='col-sm-12 people-area'>
-            <?php for ($i = 0; $i < 333; $i++): ?>
+            <?php for ($i = 0; $i < 333/2; $i++): ?>
               <img src='mob/4-people.png'/>
             <?php endfor; ?>
           </div>
@@ -89,7 +89,7 @@
             <h4><span class='red'>Refugees:</span> <span class='black' style='display: inline-block'>16.7 million</span></h4>
           </div>
           <div class='col-sm-12 people-area'>
-            <?php for ($i = 0; $i < 167; $i++): ?>
+            <?php for ($i = 0; $i < 167/2; $i++): ?>
               <img src='mob/4-people.png' />
             <?php endfor; ?>
           </div>

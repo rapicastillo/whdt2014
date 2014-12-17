@@ -3,8 +3,9 @@ body {
   body h1, body h2, body h3, body h4 {
     text-transform: uppercase; }
   body h1.really-big {
-    font-size: 9em;
-    font-weight: 800; }
+    font-size: 8em;
+    font-weight: 800;
+    letter-spacing: -0.05em; }
   body h2 {
     font-size: 4em;
     font-weight: 800; }
@@ -15,7 +16,7 @@ body {
     text-transform: uppercase;
     font-weight: 600; }
   body h2.fig-subtitle {
-    margin-top: .65em; }
+    margin-top: .6em; }
   body p {
     font-size: 1.9em;
     padding: .7em;
