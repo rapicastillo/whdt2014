@@ -28,6 +28,13 @@ body {
     line-height: 1.5;
 
     color: white;
+
+    &.sub-heading
+    {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+    }
   }
 
   .blue { color: #036CB6; }
@@ -124,4 +131,13 @@ body {
 }
 
 
+.row.table-like-form {
+    display: table;
+
+  [class*="col-"] {
+      float: none;
+      display: table-cell;
+      vertical-align: bottom;
+  }
+}
 

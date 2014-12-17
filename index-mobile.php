@@ -45,30 +45,32 @@
             <h4 class='black'>people affected by <span class='blue'>natural disasters</span> in 2013</h4>
           </div>
         </div>
+
+
         <div class='row affected-natl'>
-          <div class='col-sm-12 text-center'><img src='mob/3-china.png'></div>
+          <div class='col-sm-12 blue-bg'><p class='white text-center sub-heading'>Top five countries by number of people affected by natural disasters</p></div>
         </div>
+
+
         <div class='row affected-natl'>
-          <div class='col-sm-12 text-center'><img src='mob/3-philippines.png'></div>
+          <div class='col-xs-12 col-sm-6 text-center'><img src='mob/3-china.png'></div>
+          <div class='col-xs-12 col-sm-6 text-center'><img src='mob/3-philippines.png'></div>
         </div>
         <div class='row  affected-natl'>
-          <div class='col-sm-12 text-center'><img src='mob/3-india.png'></div>
-        </div>
-        <div class='row affected-natl'>
-          <div class='col-sm-12 text-center'><img src='mob/3-vietnam.png'></div>
+          <div class='col-xs-12 col-sm-6 text-center'><img src='mob/3-india.png'></div>
+          <div class='col-xs-12 col-sm-6 text-center'><img src='mob/3-vietnam.png'></div>
         </div>
         <div class='row  affected-natl'>
-          <div class='col-sm-12 text-center'><img src='mob/3-thailand.png'></div>
+          <div class='col-xs-12 col-sm-6text-center'><img src='mob/3-thailand.png'></div>
         </div>
-        <div class='row affected-natl'>
-          <div class='col-sm-12 blue-bg'><h4 class='white'>Top five countries by number of people affected by natural disasters</h4></div>
-        </div>
+
       </div>
     </div>
     <div class='row bg2-content-inverted' id='slide-3-content-cont'>
       <div class='col-sm-12'>
         <div class='row'>
-          <div class='col-sm-12'><h1 class='really-big red'>51.2</h1></div>
+          <div class='col-sm-12'>
+            <h1 class='really-big red'>51.2</h1></div>
         </div>
         <div class='row'>
           <div class='col-sm-12'>
@@ -76,6 +78,14 @@
             <h4 class='black'>people affected by <span class='blue'>conflict</span> in 2013</h4>
           </div>
         </div>
+
+
+        <div class='row'>
+          <div class='col-sm-12 blue-bg text-center'>
+            <p class='white text-center sub-heading'>16% increase in IDPs</p>
+          </div>
+        </div>
+
         <div class='row'>
           <div class='col-sm-12 text-center'>
             <p><img src='mob/4-people.png'/></p>
@@ -97,11 +107,7 @@
 
         </div>
         <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
-        <div class='row'>
-          <div class='col-sm-12 blue-bg text-center'>
-            <h4 class='white'>16% increase in IDPs</h4>
-          </div>
-        </div>
+
       </div>
     </div>
 
@@ -123,10 +129,10 @@
           </div>
         </div>
         <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
-        <div class='row'>
+        <div class='row table-like-form'>
           <div class='col-sm-3 col-xs-3'></div>
           <div class='col-sm-3 col-xs-3' >
-            <img src='mob/5-3b.png' width="100%"/></div>
+            <img src='mob/5-3b2.png' width="100%"/></div>
           <div class='col-sm-3 col-xs-3'><img src='mob/5-17.9b.png' width='100%' /></div>
           <div class='col-sm-3 col-xs-3'></div>
         </div>
@@ -142,6 +148,7 @@
 
     <div class='row partnerships-bg'>
       <div class='col-sm-12'>
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
         <div class='row'>
           <div class='col-sm-12 text-center'>
             <img src='mob/6-twitter.png' width='70%' />
@@ -154,6 +161,7 @@
             <h4 class='white'>Deliver Effectively</h4>
           </div>
         </div>
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
       </div>
     </div>
 
@@ -176,6 +184,7 @@
             <img src='img/social-media.png' width='95%' />
           </div>
         </div>
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
         <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
       </div>
     </div>
@@ -302,7 +311,7 @@
           <li>Identification of potential sites for assistance</li>
 
         </ul>
-        </div></div>
+        </div>&nbsp;</div>
 
       </div>
     </div>

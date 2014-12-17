@@ -26,6 +26,10 @@ body {
     padding: .3em;
     line-height: 1.5;
     color: white; }
+    body p.sub-heading {
+      font-size: 1em;
+      margin: 0;
+      padding: 0; }
   body .blue {
     color: #036CB6; }
   body .blue-bg {
@@ -84,3 +88,10 @@ body {
   display: inline-block;
   padding: 10px;
   border: 5px solid white; }
+
+.row.table-like-form {
+  display: table; }
+  .row.table-like-form [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: bottom; }
