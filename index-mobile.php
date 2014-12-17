@@ -37,62 +37,64 @@
     <div class='row bg2-content' id='slide-3-content'>
       <div class='col-sm-12 col-xs-12'>
         <div class='row'>
-          <div class='col-sm-4 col-xs-5 text-right'><h1 class='really-big red'>97</h1></div>
-          <div class='col-sm-8 col-xs-7'>
+          <div class='col-sm-12'><h1 class='really-big red'>97</h1></div>
+        </div>
+        <div class='row'>
+          <div class='col-sm-12'>
             <h2 class='red fig-subtitle'>million</h2>
             <h4 class='black'>people affected by <span class='blue'>natural disasters</span> in 2013</h4>
           </div>
         </div>
         <div class='row affected-natl'>
-          <div class='col-sm-6 col-xs-6 text-center'><img src='mob/3-china.png'></div>
-          <div class='col-sm-6 col-xs-6 text-center'><img src='mob/3-philippines.png'></div>
+          <div class='col-sm-12 text-center'><img src='mob/3-china.png'></div>
+        </div>
+        <div class='row affected-natl'>
+          <div class='col-sm-12 text-center'><img src='mob/3-philippines.png'></div>
         </div>
         <div class='row  affected-natl'>
-          <div class='col-sm-6 col-xs-6 text-center'><img src='mob/3-india.png'></div>
-          <div class='col-sm-6 col-xs-6 text-center'><img src='mob/3-vietnam.png'></div>
+          <div class='col-sm-12 text-center'><img src='mob/3-india.png'></div>
+        </div>
+        <div class='row affected-natl'>
+          <div class='col-sm-12 text-center'><img src='mob/3-vietnam.png'></div>
         </div>
         <div class='row  affected-natl'>
-          <div class='col-sm-6 col-xs-6 text-center'><img src='mob/3-thailand.png'></div>
-          <div class='col-sm-6 col-xs-6 blue-bg'><p><strong>Top five countries by number of people affected by natural disasters</strong></p></div>
+          <div class='col-sm-12 text-center'><img src='mob/3-thailand.png'></div>
+        </div>
+        <div class='row affected-natl'>
+          <div class='col-sm-12 blue-bg'><h4 class='white'>Top five countries by number of people affected by natural disasters</h4></div>
         </div>
       </div>
     </div>
     <div class='row bg2-content-inverted' id='slide-3-content-cont'>
       <div class='col-sm-12'>
         <div class='row'>
-          <div class='col-sm-4 col-xs-5 text-right'><h1 class='really-big red'>51.2</h1></div>
-          <div class='col-sm-8 col-xs-7'>
+          <div class='col-sm-12'><h1 class='really-big red'>51.2</h1></div>
+        </div>
+        <div class='row'>
+          <div class='col-sm-12'>
             <h2 class='red fig-subtitle'>million</h2>
             <h4 class='black'>people affected by <span class='blue'>conflict</span> in 2013</h4>
           </div>
         </div>
         <div class='row'>
-          <div class='col-sm-12'>
-            <h4><span class='red'>Asylum Seekers:</span> <span class='black'>1.2 million</span></h4>
+          <div class='col-sm-12 text-center'>
+            <p><img src='mob/4-people.png'/></p>
+            <h4><span class='red'>Asylum Seekers:</span><br /><span class='black'>1.2 million</span></h4>
           </div>
-          <div class='col-sm-12 people-area'>
-            <?php for ($i = 0; $i < 6; $i++): ?>
-              <img src='mob/4-people.png' />
-            <?php endfor; ?>
-          </div>
+
           <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
-          <div class='col-sm-12'>
-            <h4><span class='red'>Internally displaced people:</span> <span class='black' style='display: inline-block'>33.3 million</span></h4>
+          <div class='col-sm-12 text-center'>
+            <p><img src='mob/4-people.png'/></p>
+            <h4><span class='red'>Internally displaced people:</span><br /><span class='black' style='display: inline-block'>33.3 million</span></h4>
           </div>
-          <div class='col-sm-12 people-area'>
-            <?php for ($i = 0; $i < 333/2; $i++): ?>
-              <img src='mob/4-people.png'/>
-            <?php endfor; ?>
-          </div>
+
+
           <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
-          <div class='col-sm-12'>
-            <h4><span class='red'>Refugees:</span> <span class='black' style='display: inline-block'>16.7 million</span></h4>
+          <div class='col-sm-12 text-center'>
+            <p><img src='mob/4-people.png'/></p>
+            <h4><span class='red'>Refugees:</span><br /><span class='black' style='display: inline-block'>16.7 million</span></h4>
           </div>
-          <div class='col-sm-12 people-area'>
-            <?php for ($i = 0; $i < 167/2; $i++): ?>
-              <img src='mob/4-people.png' />
-            <?php endfor; ?>
-          </div>
+
         </div>
         <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
         <div class='row'>
@@ -123,7 +125,8 @@
         <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
         <div class='row'>
           <div class='col-sm-3 col-xs-3'></div>
-          <div class='col-sm-3 col-xs-3'><img src='mob/5-3b.png' width='100%' /></div>
+          <div class='col-sm-3 col-xs-3' >
+            <img src='mob/5-3b.png' width="100%"/></div>
           <div class='col-sm-3 col-xs-3'><img src='mob/5-17.9b.png' width='100%' /></div>
           <div class='col-sm-3 col-xs-3'></div>
         </div>
@@ -136,24 +139,198 @@
         <h3>Why are partnerships important?</h3>
       </div>
     </div>
+
     <div class='row partnerships-bg'>
       <div class='col-sm-12'>
         <div class='row'>
-          <div class='col-sm-3 col-xs-3'></div>
-          <div class='col-sm-6 col-xs-6 text-center'>
-            <img src='mob/6-twitter.png' width='90%' />
+          <div class='col-sm-12 text-center'>
+            <img src='mob/6-twitter.png' width='70%' />
             <h4 class='white'>Make the most out of new opportunities</h4>
             <br/>
-            <img src='mob/6-house.png' width='90%' />
+            <img src='mob/6-house.png' width='70%' />
             <h4 class='white'>Overcome challenges and build capacity</h4>
             <br/>
-            <img src='mob/6-military.png' width='90%' />
+            <img src='mob/6-military.png' width='70%' />
             <h4 class='white'>Deliver Effectively</h4>
           </div>
-          <div class='col-sm-3 col-xs-3'></div>
         </div>
       </div>
     </div>
+
+    <!-- SOCIAL -->
+    <div class='row red-title'>
+      <div class='col-sm-12'>
+        <h3>Making the most of new opportunities</h3>
+      </div>
+    </div>
+    <div class='row partnerships-bg'>
+      <div class='col-sm-12'>
+        <div class='row'>
+          <div class='col-sm-12'>
+            <p>Social media is still an experimental field, but through strengthening partnerships with social media users for data collection and analysis, the humanitarian community will be able to make the most of this new opportunity.</p>
+<p>Twitter in particular, is providing a new avenue of valuable data. To make the most of it, we first need to understand who is using it and how. </p>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-sm-12 text-center'>
+            <img src='img/social-media.png' width='95%' />
+          </div>
+        </div>
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
+      </div>
+    </div>
+
+    <!-- PARTNERSHIPS -->
+    <div class='row red-title'>
+      <div class='col-sm-12'>
+        <h3>OVERCOMING CHALLENGES</h3>
+      </div>
+    </div>
+    <div class='row partnerships-bg'>
+      <div class='col-sm-12'>
+        <div class='row'>
+          <div class='col-xs-12 text-center blue-bg white'>
+            <h4>Case Study: Syria</h4>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-sm-12'>
+            <p>The crisis in Syria is one of the worst on record given the sheer size of damage in the country and the effect on the region. Over 150 agencies and aid groups are working with local partners and national authorities to provide relief.</p>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-sm-1 col-xs-1 text-center'></div>
+          <div class='col-sm-10 col-xs-10 text-center'>
+            <div class='row'>
+              <div class='col-sm-12 col-xs-12 text-center'>
+                <div class='circle'><img src='mob/8-education.png'/></div>
+                  <h4 class='white'>EDUCATION</h4>
+                  <p>
+                    <strong class='blue'>314,868</strong> Syrian refugee children enrolled in formal education
+                  </p>
+              </div>
+            </div>
+            <div class='row'><div class='col-xs-12'>&nbsp;</div></div>
+            <div class='row'>
+              <div class='col-sm-12 col-xs-12 text-center'>
+                <div class='circle'><img src='mob/8-health.png'/></div>
+                  <h4 class='white'>HEALTH</h4>
+                  <p>
+                    More than <strong class='blue'>22 million</strong> people were vaccinated against polio and measles
+
+                  </p>
+              </div>
+            </div>
+            <div class='row'><div class='col-xs-12'>&nbsp;</div></div>
+            <div class='row'>
+              <div class='col-sm-12 col-xs-12 text-center'>
+                <div class='circle'><img src='mob/8-wash.png'/></div>
+                  <h4 class='white'>WASH</h4>
+                  <p>
+                    <strong class='blue'>792,000</strong> individuals benefited from access to water supply networks
+                  </p>
+              </div>
+            </div>
+            <div class='row'><div class='col-xs-12'>&nbsp;</div></div>
+            <div class='row'>
+              <div class='col-sm-12 col-xs-12 text-center'>
+                <div class='circle'><img src='mob/8-corerelief.png'/></div>
+                  <h4 class='white'>CORE RELIEF</h4>
+                  <p>
+                    <strong class='blue'>1.6 million</strong> blankets and quilts distributed
+                  </p>
+              </div>
+            </div>
+            <div class='row'><div class='col-xs-12'>&nbsp;</div></div>
+            <div class='row'>
+              <div class='col-sm-12 col-xs-12 text-center'>
+                <div class='circle'><img src='mob/8-shelter.png'/></div>
+                  <h4 class='white'>SHELTER</h4>
+                  <p>
+                    More than <strong class='blue'>163,000</strong> tents and shelters distributed
+                  </p>
+              </div>
+            </div>
+            <div class='row'><div class='col-xs-12'>&nbsp;</div></div>
+            <div class='row'>
+              <div class='col-sm-12 col-xs-12 text-center'>
+                <div class='circle'><img src='mob/8-food.png'/></div>
+                  <h4 class='white'>FOOD</h4>
+                  <p>
+                    <strong class='blue'>1,394,000</strong> beneficiaries of food vouchers or cash assistance for food
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
+      </div>
+    </div>
+
+
+    <!-- MILITARY -->
+    <div class='row red-title'>
+      <div class='col-sm-12'>
+        <h3>Delivering Effectively</h3>
+      </div>
+    </div>
+    <div class='row partnerships-bg'>
+      <div class='col-sm-12'>
+        <div class='row'>
+          <div class='col-sm-12'>
+            <p>In the direct aftermath of an emergency, it can be difficult to deliver assistance to affected communities especially if a country's infrastructure has been compromised. Partnerships with other relief providers can greatly enhance the overall capacity of the humanitarian community to help those in need. Directly after Super Typhoon Haiyan, foreign military assets were key in delivering relief.</p>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-sm-12 col-xs-12 text-center blue-bg white'>
+            <h5>Main activities of military assets in</h5>
+            <h4>Super Typhoon Haiyan</h4>
+          </div>
+        </div>
+        <div class='row'><div class='col-md-12'>&nbsp;</div></div>
+        <div class='row'><div class='col-sm-12'>
+        <ul class='white'>
+          <li>Strategic airlifts of food, shelter, health facilities, and water purification units</li>
+          <li>Operational and tactical airlft of relief supplies</li>
+          <li>Evacuation of disaster victims</li>
+          <li>Engineering to assist in clearing debris, opening roads, re-establishing electricity, rehabilitating schools and assessing infrastructure</li>
+          <li>Water purification to produce clean drinking water</li>
+          <li>Fumigation of living areas to contain secondary threats like the outbreak of epidemics</li>
+          <li>Deployment of mobile medical teams to treat injuries</li>
+          <li>Establishment of field hospitals</li>
+          <li>Logistics support for the delivery of humanitarian supplies</li>
+          <li>Identification of potential sites for assistance</li>
+
+        </ul>
+        </div></div>
+
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class='row red-title'>
+      <div class='col-sm-12'>
+        <h3>Making the most of new opportunities</h3>
+      </div>
+    </div>
+    <div class='row partnerships-bg'>
+      <div class='col-sm-12'>
+        <div class='row'>
+          <div class='col-sm-12'>
+            <p>Social media is still an experimental field, but through strengthening partnerships with social media users for data collection and analysis, the humanitarian community will be able to make the most of this new opportunity.</p>
+<p>Twitter in particular, is providing a new avenue of valuable data. To make the most of it, we first need to understand who is using it and how. </p>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-sm-12 text-center'>
+            <img src='img/social-media.png' width='95%' />
+          </div>
+        </div>
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
+      </div>
+    </div>
+
+
   </div>
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>

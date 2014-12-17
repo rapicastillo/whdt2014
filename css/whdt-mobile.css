@@ -1,24 +1,28 @@
+html, body {
+  overflow-x: hidden !important; }
+
 body {
   font-family: 'Open Sans'; }
   body h1, body h2, body h3, body h4 {
     text-transform: uppercase; }
   body h1.really-big {
-    font-size: 8em;
+    font-size: 10em;
     font-weight: 800;
-    letter-spacing: -0.05em; }
+    letter-spacing: -0.05em;
+    margin-bottom: 0; }
+  body h2.fig-subtitle {
+    margin-top: 0; }
   body h2 {
     font-size: 4em;
     font-weight: 800; }
   body h3 {
-    font-size: 2.5em; }
+    font-size: 1.5em; }
   body h4 {
-    font-size: 1.9em;
+    font-size: 1.5em;
     text-transform: uppercase;
     font-weight: 600; }
-  body h2.fig-subtitle {
-    margin-top: .6em; }
   body p {
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding: .3em;
     line-height: 1.5;
     color: white; }
@@ -31,6 +35,9 @@ body {
     background-color: #e40d0d; }
   body .red {
     color: #e40d0d; }
+  body .light-red {
+    color: #f6c2c9;
+    font-weight: 600; }
   body .white {
     color: white; }
 
@@ -70,3 +77,10 @@ body {
         color: black; }
   .row .people-area img {
     width: 4%; }
+
+.circle {
+  border-radius: 100px;
+  background-color: #b6b9b9;
+  display: inline-block;
+  padding: 10px;
+  border: 5px solid white; }
