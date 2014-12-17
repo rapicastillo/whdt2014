@@ -1,0 +1,77 @@
+h1.title-item {
+  font-weight: 700; }
+
+#activity-corner {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  /* For various animations per slide:: */ }
+  #activity-corner #background-animations,
+  #activity-corner #foreground-animations {
+    position: fixed;
+    width: 100%;
+    height: 100%; }
+  #activity-corner #foreground-animations .animation-foreground-item {
+    position: relative;
+    width: inherit;
+    height: inherit; }
+    #activity-corner #foreground-animations .animation-foreground-item .row {
+      width: inherit; }
+    #activity-corner #foreground-animations .animation-foreground-item .foreground-component {
+      position: absolute; }
+
+#slide-2-more-needed {
+  background-color: whitesmoke;
+  position: relative;
+  width: 100%;
+  height: 100%; }
+  #slide-2-more-needed #slide-2-more-needed-animations {
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: -1; }
+    #slide-2-more-needed #slide-2-more-needed-animations #title-slides-area {
+      position: relative; }
+    #slide-2-more-needed #slide-2-more-needed-animations #title-slides-area > .row {
+      position: absolute;
+      bottom: 0; }
+    #slide-2-more-needed #slide-2-more-needed-animations #title-slides-area > .row > div {
+      height: 100%;
+      position: relative; }
+    #slide-2-more-needed #slide-2-more-needed-animations #title-slides-area #stats-area {
+      opacity: 0; }
+    #slide-2-more-needed #slide-2-more-needed-animations .clstxt {
+      position: absolute;
+      bottom: 0; }
+    #slide-2-more-needed #slide-2-more-needed-animations .clstxt2 {
+      position: absolute;
+      bottom: 0;
+      height: 85%; }
+    #slide-2-more-needed #slide-2-more-needed-animations .clssubtxt1 {
+      padding-bottom: 100%;
+      width: 50%;
+      height: 60%; }
+    #slide-2-more-needed #slide-2-more-needed-animations .clssubtxt2 {
+      padding-top: 66%;
+      width: 70%;
+      height: 40%; }
+    #slide-2-more-needed #slide-2-more-needed-animations .firstgrph {
+      height: 0%;
+      background-color: gray;
+      position: absolute;
+      bottom: 0;
+      width: 75%;
+      padding-left: 22px;
+      color: white; }
+    #slide-2-more-needed #slide-2-more-needed-animations .secondgrph {
+      height: 0%;
+      background-color: brown;
+      position: absolute;
+      bottom: 0;
+      width: 75%;
+      padding-left: 10px;
+      color: #FFF; }
+
+#actual-stage .slide-item {
+  position: absolute; }

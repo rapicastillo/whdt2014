@@ -1,0 +1,71 @@
+body {
+  font-family: 'Open Sans'; }
+  body h1, body h2, body h3, body h4 {
+    text-transform: uppercase; }
+  body h1.really-big {
+    font-size: 9em;
+    font-weight: 800; }
+  body h2 {
+    font-size: 4em;
+    font-weight: 800; }
+  body h3 {
+    font-size: 2.5em; }
+  body h4 {
+    font-size: 1.9em;
+    text-transform: uppercase;
+    font-weight: 600; }
+  body h2.fig-subtitle {
+    margin-top: .65em; }
+  body p {
+    font-size: 1.9em;
+    padding: .7em;
+    line-height: 1.75;
+    color: white; }
+  body .blue {
+    color: #036CB6; }
+  body .blue-bg {
+    background-color: #036CB6;
+    padding: 10px; }
+  body .red-bg {
+    background-color: #e40d0d; }
+  body .red {
+    color: #e40d0d; }
+  body .white {
+    color: white; }
+
+#slide-1-title {
+  background-color: lightgray;
+  background-image: url(../mob/1-bg.png);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: bottom right; }
+
+.row {
+  background-size: 100% auto; }
+  .row.bg1-content {
+    background-image: url(../mob/2-bg.png); }
+  .row.bg2-content-inverted {
+    background-image: url(../mob/3-bg-invert.png); }
+  .row#crises-more-expensive {
+    background-image: url(../mob/5-bg.png); }
+  .row.partnerships-bg {
+    background-image: url(../mob/6-bg.png); }
+  .row.bg2-content {
+    background-image: url(../mob/3-bg.png);
+    background-size: auto 100%; }
+    .row.bg2-content .row.affected-natl img {
+      width: 90%; }
+  .row.red-title {
+    background-color: #e40d0d;
+    border: solid black;
+    border-width: 0 0 10px;
+    color: white; }
+    .row.red-title h1, .row.red-title h2, .row.red-title h3, .row.red-title h4, .row.red-title h5 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-align: center;
+      font-weight: 600; }
+      .row.red-title h1 .highlight, .row.red-title h2 .highlight, .row.red-title h3 .highlight, .row.red-title h4 .highlight, .row.red-title h5 .highlight {
+        color: black; }
+  .row .people-area img {
+    width: 4%; }
