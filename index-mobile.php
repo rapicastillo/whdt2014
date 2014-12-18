@@ -67,7 +67,7 @@
           <div class='col-xs-12 col-sm-6 text-center'><img src='mob/3-vietnam.png'></div>
         </div>
         <div class='row  affected-natl'>
-          <div class='col-xs-12 col-sm-6text-center'><img src='mob/3-thailand.png'></div>
+          <div class='col-xs-12 col-sm-6 text-center'><img src='mob/3-thailand.png'></div>
         </div>
 
       </div>
@@ -333,7 +333,6 @@
     <!-- CTA -->
     <div class='row' id='cta-background'>
       <div class='col-sm-12'>
-        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
         <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
         <div class='row'>
           <div class='col-sm-12'>
