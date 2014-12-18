@@ -100,8 +100,8 @@
               </p>
               <p>This interactive - based on the publication - shows the impact of natural disasters and conflict on the millions of people affected worlwide, the changing nature of the crises and looks at the critical role that partnerships can play in meeting the needs of affected people.</p>
             </div>
-            <div class="col-md-3">
-              <img src="img/graph-funding-people.png" />
+            <div class="col-md-4">
+              <img src="img/graph-funding-people.png" width="100%"/>
             </div>
           </div>
       </div>
