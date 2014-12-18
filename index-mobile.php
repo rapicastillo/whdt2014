@@ -24,9 +24,14 @@
     </div>
     <div class='row bg1-content' id='slide-2a-content'>
       <div class='col-sm-12 col-xs-12'>
-        <p>In 2013 the humanitarian community was confronted with emergencies of unprecedented magnitude.</p>
-        <p>This site - based on the publication - shows the impact of natural disasters and conflict on the millions of people affected worlwide, the changing nature of the crises and looks at the critical role that partnerships can play in meeting the needs of affected people.</p>
-        <p><img src='mob/2-chart.png' width="100%"/></p>
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
+        <div class='row'>
+          <div class='col-sm-12'>
+            <p>In 2013 the humanitarian community was confronted with emergencies of unprecedented magnitude.</p>
+            <p>This site - based on the publication - shows the impact of natural disasters and conflict on the millions of people affected worlwide, the changing nature of the crises and looks at the critical role that partnerships can play in meeting the needs of affected people.</p>
+            <p><img src='mob/2-chart.png' width="100%"/></p>
+          </div>
+        </div>
       </div>
     </div>
     <div class='row red-title' id='slide-3-title'>
@@ -51,6 +56,7 @@
           <div class='col-sm-12 blue-bg'><p class='white text-center sub-heading'>Top five countries by number of people affected by natural disasters</p></div>
         </div>
 
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
 
         <div class='row affected-natl'>
           <div class='col-xs-12 col-sm-6 text-center'><img src='mob/3-china.png'></div>
@@ -86,6 +92,9 @@
           </div>
         </div>
 
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
+
         <div class='row'>
           <div class='col-sm-12 text-center'>
             <p><img src='mob/4-people.png'/></p>
@@ -119,6 +128,7 @@
     <div class='row' id='crises-more-expensive'>
       <div class='col-sm-12'>
         <div class='row'>
+          <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
           <div class='col-sm-12'>
             <p class='text-center'>
               In the last ten years, the funding requirements of interagency appeals have increased by 600% from $3 billion in 2004 to $17.9 billion in 2014.
@@ -149,6 +159,7 @@
     <div class='row partnerships-bg'>
       <div class='col-sm-12'>
         <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
         <div class='row'>
           <div class='col-sm-12 text-center'>
             <img src='mob/6-twitter.png' width='70%' />
@@ -173,6 +184,7 @@
     </div>
     <div class='row partnerships-bg'>
       <div class='col-sm-12'>
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
         <div class='row'>
           <div class='col-sm-12'>
             <p>Social media is still an experimental field, but through strengthening partnerships with social media users for data collection and analysis, the humanitarian community will be able to make the most of this new opportunity.</p>
@@ -202,6 +214,7 @@
             <h4>Case Study: Syria</h4>
           </div>
         </div>
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
         <div class='row'>
           <div class='col-sm-12'>
             <p>The crisis in Syria is one of the worst on record given the sheer size of damage in the country and the effect on the region. Over 150 agencies and aid groups are working with local partners and national authorities to provide relief.</p>
@@ -215,7 +228,7 @@
                 <div class='circle'><img src='mob/8-education.png'/></div>
                   <h4 class='white'>EDUCATION</h4>
                   <p>
-                    <strong class='blue'>314,868</strong> Syrian refugee children enrolled in formal education
+                    <strong>314,868</strong> Syrian refugee children enrolled in formal education
                   </p>
               </div>
             </div>
@@ -225,7 +238,7 @@
                 <div class='circle'><img src='mob/8-health.png'/></div>
                   <h4 class='white'>HEALTH</h4>
                   <p>
-                    More than <strong class='blue'>22 million</strong> people were vaccinated against polio and measles
+                    More than <strong>22 million</strong> people were vaccinated against polio and measles
 
                   </p>
               </div>
@@ -236,7 +249,7 @@
                 <div class='circle'><img src='mob/8-wash.png'/></div>
                   <h4 class='white'>WASH</h4>
                   <p>
-                    <strong class='blue'>792,000</strong> individuals benefited from access to water supply networks
+                    <strong>792,000</strong> individuals benefited from access to water supply networks
                   </p>
               </div>
             </div>
@@ -246,7 +259,7 @@
                 <div class='circle'><img src='mob/8-corerelief.png'/></div>
                   <h4 class='white'>CORE RELIEF</h4>
                   <p>
-                    <strong class='blue'>1.6 million</strong> blankets and quilts distributed
+                    <strong>1.6 million</strong> blankets and quilts distributed
                   </p>
               </div>
             </div>
@@ -256,7 +269,7 @@
                 <div class='circle'><img src='mob/8-shelter.png'/></div>
                   <h4 class='white'>SHELTER</h4>
                   <p>
-                    More than <strong class='blue'>163,000</strong> tents and shelters distributed
+                    More than <strong>163,000</strong> tents and shelters distributed
                   </p>
               </div>
             </div>
@@ -266,7 +279,7 @@
                 <div class='circle'><img src='mob/8-food.png'/></div>
                   <h4 class='white'>FOOD</h4>
                   <p>
-                    <strong class='blue'>1,394,000</strong> beneficiaries of food vouchers or cash assistance for food
+                    <strong>1,394,000</strong> beneficiaries of food vouchers or cash assistance for food
                   </p>
               </div>
             </div>
@@ -285,6 +298,7 @@
     </div>
     <div class='row partnerships-bg'>
       <div class='col-sm-12'>
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
         <div class='row'>
           <div class='col-sm-12'>
             <p>In the direct aftermath of an emergency, it can be difficult to deliver assistance to affected communities especially if a country's infrastructure has been compromised. Partnerships with other relief providers can greatly enhance the overall capacity of the humanitarian community to help those in need. Directly after Super Typhoon Haiyan, foreign military assets were key in delivering relief.</p>
@@ -311,34 +325,91 @@
           <li>Identification of potential sites for assistance</li>
 
         </ul>
-        </div>&nbsp;</div>
-
-      </div>
-    </div>
-
-    <!-- CTA -->
-    <div class='row red-title'>
-      <div class='col-sm-12'>
-        <h3>Making the most of new opportunities</h3>
-      </div>
-    </div>
-    <div class='row partnerships-bg'>
-      <div class='col-sm-12'>
-        <div class='row'>
-          <div class='col-sm-12'>
-            <p>Social media is still an experimental field, but through strengthening partnerships with social media users for data collection and analysis, the humanitarian community will be able to make the most of this new opportunity.</p>
-<p>Twitter in particular, is providing a new avenue of valuable data. To make the most of it, we first need to understand who is using it and how. </p>
-          </div>
-        </div>
-        <div class='row'>
-          <div class='col-sm-12 text-center'>
-            <img src='img/social-media.png' width='95%' />
-          </div>
-        </div>
+        </div></div>
         <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
       </div>
     </div>
 
+    <!-- CTA -->
+    <div class='row' id='cta-background'>
+      <div class='col-sm-12'>
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
+        <div class='row'>
+          <div class='col-sm-12'>
+            <p>
+              <strong class='black'>This report is just one part of OCHA's efforts to improve data and analysis on humanitarian situations worldwide and build a humanitarian data commmunity.</strong>
+            </p>
+          </div>
+        </div>
+
+        <div class='row' id='cta-report'>
+          <div class='col-sm-12'>
+            <a href='#'>
+              <span class='cta-link'>Download the <span style='display: inline-block'>full report</span></span>
+              <span class='cta-height-invi'></span>
+              <img src='mob/cta-report.png' class='pull-right cta-link' style='height: 100px;' />
+            </a>
+            <div class='clear'></div>
+          </div>
+        </div>
+
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
+        <div class='row' id='cta-highlights'>
+          <div class='col-sm-12'>
+            <a href='#'>
+              <span class='cta-link'>Download the <span style='display: inline-block'>highlights page</span></span>
+              <span class='cta-height-invi'></span>
+              <img src='mob/cta-highlights.png' class='pull-right cta-link' style='height: 100px;' />
+            </a>
+            <div class='clear'></div>
+          </div>
+        </div>
+
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
+        <div class='row' id='cta-global'>
+          <div class='col-sm-12'>
+            <a href='#'>
+              <span class='cta-link'>Download the <span style='display: inline-block'>global challenges page</span></span>
+              <span class='cta-height-invi'></span>
+              <img src='mob/cta-global.png' class='pull-right cta-link' style='height: 100px;' />
+            </a>
+            <div class='clear'></div>
+          </div>
+        </div>
+
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
+        <div class='row' id='cta-graphics'>
+          <div class='col-sm-12'>
+
+            <a href='#'>
+              <span class='cta-link'>Download the <span style='display: inline-block'>graphics</span></span>
+              <span class='cta-height-invi'></span>
+              <img src='mob/cta-graphics.png' class='pull-right cta-link' style='height: 100px;' />
+            </a>
+            <div class='clear'></div>
+          </div>
+        </div>
+
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
+        <div class='row' id='cta-hdx'>
+          <div class='col-sm-12'>
+
+            <a href='#'>
+              <span class='cta-link'>Download the data</span>
+              <span class='cta-height-invi'></span>
+              <img src='mob/cta-hdx.png' class='pull-right cta-link' style='height: 100px;' />
+            </a>
+            <div class='clear'></div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class='row'><div class='col-sm-12' style='padding: 0' >
+          <img src='mob/cta-final-pic.png' width='100%' />
+    </div></div>
 
   </div>
 

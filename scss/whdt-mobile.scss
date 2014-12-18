@@ -1,5 +1,8 @@
 html, body { overflow-x: hidden !important; }
 
+
+.clear { clear: both; }
+
 body {
   h1, h2, h3, h4 { text-transform: uppercase; }
   font-family: 'Open Sans';
@@ -48,6 +51,7 @@ body {
 
   .light-red { color: #f6c2c9; font-weight: 600; }
 
+  .black { color: black; }
   .white { color: white; }
 
 }
@@ -80,6 +84,13 @@ body {
   &.bg2-content-inverted { background-image: url(../mob/3-bg-invert.png); }
   &#crises-more-expensive { background-image: url(../mob/5-bg.png); }
   &.partnerships-bg { background-image: url(../mob/6-bg.png); }
+  &#cta-background { background-image: url(../mob/cta-bg.png); }
+  &#cta-report { background-image: url(../mob/cta-report-bg.png); }
+  &#cta-highlights { background-image: url(../mob/cta-highlights-bg.png); }
+  &#cta-global { background: url(../mob/cta-global-bg.png); }
+  &#cta-graphics { background: url(../mob/cta-graphics-bg.png); }
+  &#cta-hdx { background: url(../mob/cta-hdx-bg.png); }
+
 
   &.bg2-content
   {
@@ -141,3 +152,17 @@ body {
   }
 }
 
+.cta-link
+{
+  font-size: 1.2em;
+  font-weight: 600;
+  color: white;
+  vertical-align: middle;
+  display: inline-block;
+}
+.cta-height-invi
+  {
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+  }

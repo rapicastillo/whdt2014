@@ -1,6 +1,9 @@
 html, body {
   overflow-x: hidden !important; }
 
+.clear {
+  clear: both; }
+
 body {
   font-family: 'Open Sans'; }
   body h1, body h2, body h3, body h4 {
@@ -42,6 +45,8 @@ body {
   body .light-red {
     color: #f6c2c9;
     font-weight: 600; }
+  body .black {
+    color: black; }
   body .white {
     color: white; }
 
@@ -62,6 +67,18 @@ body {
     background-image: url(../mob/5-bg.png); }
   .row.partnerships-bg {
     background-image: url(../mob/6-bg.png); }
+  .row#cta-background {
+    background-image: url(../mob/cta-bg.png); }
+  .row#cta-report {
+    background-image: url(../mob/cta-report-bg.png); }
+  .row#cta-highlights {
+    background-image: url(../mob/cta-highlights-bg.png); }
+  .row#cta-global {
+    background: url(../mob/cta-global-bg.png); }
+  .row#cta-graphics {
+    background: url(../mob/cta-graphics-bg.png); }
+  .row#cta-hdx {
+    background: url(../mob/cta-hdx-bg.png); }
   .row.bg2-content {
     background-image: url(../mob/3-bg.png);
     background-size: auto 100%; }
@@ -95,3 +112,15 @@ body {
     float: none;
     display: table-cell;
     vertical-align: bottom; }
+
+.cta-link {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: white;
+  vertical-align: middle;
+  display: inline-block; }
+
+.cta-height-invi {
+  height: 100px;
+  display: inline-block;
+  vertical-align: middle; }
