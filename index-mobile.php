@@ -345,7 +345,7 @@
 
         <div class='row' id='cta-report'>
           <div class='col-sm-12'>
-            <a href='#'>
+            <a href='http://www.unocha.org/data-and-trends-2014/downloads/World%20Humanitarian%20Data%20and%20Trends%202014.pdf'>
               <span class='cta-link'>Download the <span style='display: inline-block'>full report</span></span>
               <span class='cta-height-invi'></span>
               <img src='mob/cta-report.png' class='pull-right cta-link' style='height: 100px;' />
@@ -357,7 +357,7 @@
         <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
         <div class='row' id='cta-highlights'>
           <div class='col-sm-12'>
-            <a href='#'>
+            <a href='http://www.unocha.org/data-and-trends-2014/downloads/data-trends-highlights.pdf'>
               <span class='cta-link'>Download the <span style='display: inline-block'>highlights page</span></span>
               <span class='cta-height-invi'></span>
               <img src='mob/cta-highlights.png' class='pull-right cta-link' style='height: 100px;' />
@@ -369,7 +369,7 @@
         <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
         <div class='row' id='cta-global'>
           <div class='col-sm-12'>
-            <a href='#'>
+            <a href='http://www.unocha.org/data-and-trends-2014/downloads/global-risks.pdf'>
               <span class='cta-link'>Download the <span style='display: inline-block'>global challenges page</span></span>
               <span class='cta-height-invi'></span>
               <img src='mob/cta-global.png' class='pull-right cta-link' style='height: 100px;' />
@@ -382,7 +382,7 @@
         <div class='row' id='cta-graphics'>
           <div class='col-sm-12'>
 
-            <a href='#'>
+            <a href='http://www.unocha.org/data-and-trends-2014/downloads/WHDT-images.zip'>
               <span class='cta-link'>Download the <span style='display: inline-block'>graphics</span></span>
               <span class='cta-height-invi'></span>
               <img src='mob/cta-graphics.png' class='pull-right cta-link' style='height: 100px;' />
@@ -395,7 +395,7 @@
         <div class='row' id='cta-hdx'>
           <div class='col-sm-12'>
 
-            <a href='#'>
+            <a href='https://data.hdx.rwlabs.org/dataset/world-humanitarian-data-and-trends'>
               <span class='cta-link'>Download the data</span>
               <span class='cta-height-invi'></span>
               <img src='mob/cta-hdx.png' class='pull-right cta-link' style='height: 100px;' />
