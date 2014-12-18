@@ -409,6 +409,10 @@
 
     <div class='row'><div class='col-sm-12' style='padding: 0' >
           <img src='mob/cta-final-pic.png' width='100%' />
+          <div id='final-word'>
+            <h4 class='white'>The information gap</h4>
+<p class='white'>Due to the complexity of humanitarian crises, there are many gaps in the available information. Even the concepts of humanitarian needs and assistance are flexible, and there are also inherent biases in the information. To truly understand and measure impact, the humanitarian community will need to continue working on better standards and ways of collecting, sharing and using data.</p>
+          </div>
     </div></div>
 
   </div>
