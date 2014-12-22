@@ -14,7 +14,7 @@
     <!-- 1 ) Title Area-->
     <div class='row' id='slide-1-title'>
       <div class='col-sm-12 col-xs-12'>
-        <p><img src='mob/1-title.png' width="80%"></p>
+        <p><img src='mob/1-title.png' width="100%"></p>
       </div>
     </div>
     <div class='row red-title' id='slide-2a-title'>
@@ -130,21 +130,29 @@
         <div class='row'>
           <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
           <div class='col-sm-12'>
-            <p class='text-center'>
+            <p class='text-left'>
               In the last ten years, the funding requirements of interagency appeals have increased by 600% from $3 billion in 2004 to $17.9 billion in 2014.
             </p>
-            <p class='text-center'>
+            <p class='text-left'>
               In the same amount of time, the number of people targeted for assistance has more than doubled.
             </p>
           </div>
         </div>
         <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
-        <div class='row table-like-form'>
-          <div class='col-sm-3 col-xs-3'></div>
-          <div class='col-sm-3 col-xs-3' >
-            <img src='mob/5-3b2.png' width="100%"/></div>
-          <div class='col-sm-3 col-xs-3'><img src='mob/5-17.9b.png' width='100%' /></div>
-          <div class='col-sm-3 col-xs-3'></div>
+        <div class='row'>
+          <div class='col-sm-12 col-xs-12'>
+            <h4 class='white'>Funding requested in 2004</h4>
+            <img src='mob/5-3b2.png' style='height: 15%;' />
+          </div>
+        </div>
+        <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
+        <div class='row'>
+          <div class='col-sm-12 col-xs-12'>
+            <h4 class='white'>Funding requested in 2014</h4>
+            <img src='mob/5-17.9b.png' style='height: 15%;' />
+            <h5 class='white'>More than 6 times the request a decade ago.</h5>
+          </div>
+
         </div>
       </div>
     </div>
@@ -211,7 +219,7 @@
       <div class='col-sm-12'>
         <div class='row'>
           <div class='col-xs-12 text-center blue-bg white'>
-            <h4>Case Study: Syria</h4>
+            <p class='white text-center sub-heading'>Case Study: Syria</p>
           </div>
         </div>
         <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
@@ -312,7 +320,7 @@
         </div>
         <div class='row'><div class='col-md-12'>&nbsp;</div></div>
         <div class='row'><div class='col-sm-12'>
-        <ul class='white'>
+        <ul class='white' id='military-list'>
           <li>Strategic airlifts of food, shelter, health facilities, and water purification units</li>
           <li>Operational and tactical airlft of relief supplies</li>
           <li>Evacuation of disaster victims</li>

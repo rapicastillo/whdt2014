@@ -131,3 +131,6 @@ body {
   bottom: 0;
   padding: 20px;
   font-size: 0.8em; }
+
+#military-list li {
+  margin-bottom: 10px; }
