@@ -9,6 +9,7 @@
 
 </head>
 <body style="background-image: url(img/branch-background.png); background-repeat: no-repeat;">
+<div id="skrollr-body">
   <div class="container-fluid">
 
     <!-- 1 ) Title Area-->
@@ -423,6 +424,7 @@
     </div></div>
 
   </div>
+</div>
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>

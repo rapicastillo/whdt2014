@@ -31,9 +31,7 @@
     </span>
   </div>
 </nav> -->
-
-
-
+<div id="skrollr-body" class="skrollr-body">
 <div id="title-area" class="slide-item">
   <div class="main-area free-flowing" style="z-index: 1000">
     <div class="fluid-container" id="actual-title">
@@ -530,7 +528,7 @@
       </sub>
     </div>
 </div>
-
+</div> <!-- END OF skrollr-body -->
 <script type='text/javascript' src='js/jquery.min.js'></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
@@ -542,7 +540,7 @@ $(function() {
 
   var uagent = navigator.userAgent.toLowerCase();
 
-  if (uagent.search("iphone") > -1 || uagent.search("android") > -1) {
+  if (uagent.search("iphone") > -1 || uagent.search("android") > -1 || uagent.search("ipad") > -1) {
     window.location = "./index-mobile.php";
   }
 
