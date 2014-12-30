@@ -540,7 +540,7 @@ $(function() {
 
   var uagent = navigator.userAgent.toLowerCase();
 
-  if (uagent.search("iphone") > -1 || uagent.search("android") > -1 ) {
+  if (uagent.search("iphone") > -1 || uagent.search("android") > -1 || uagent.search("ipad") > -1) {
     window.location = "./index-mobile.php";
   }
 
