@@ -143,14 +143,14 @@
         <div class='row'>
           <div class='col-sm-12 col-xs-12'>
             <h4 class='white'>Funding requested in 2004</h4>
-            <img src='mob/5-3b2.png' style='height: 15%;' />
+            <img src='mob/5-3b2.png' style='max-height: 100px; max-width: 40%;' />
           </div>
         </div>
         <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
         <div class='row'>
           <div class='col-sm-12 col-xs-12'>
             <h4 class='white'>Funding requested in 2014</h4>
-            <img src='mob/5-17.9b.png' style='height: 15%;' />
+            <img src='mob/5-17.9b.png' style='max-height: 100px; max-width: 100%;' />
             <h5 class='white'>More than 6 times the request a decade ago.</h5>
           </div>
 
