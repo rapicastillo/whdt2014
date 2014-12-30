@@ -10,12 +10,6 @@
     <link rel="stylesheet" type="text/css" href="style/circle.css">
     <title>World Humanitarian Data and Trends 2014</title>
     <script type='text/javascript'>
-
-      var uagent = navigator.userAgent.toLowerCase();
-
-      if (uagent.search("iphone") > -1 || uagent.search("android") > -1 || uagent.search("ipad") > -1) {
-        window.location = "./index-mobile.php";
-      }
     </script>
 </head>
 <body>
@@ -545,6 +539,13 @@
 <script src="js/custom.js"></script>
 <script type='text/javascript'>
 $(function() {
+
+
+  var uagent = navigator.userAgent.toLowerCase();
+
+  if (uagent.search("iphone") > -1 || uagent.search("android") > -1 || uagent.search("ipad") > -1) {
+    window.location = "./index-mobile.php";
+  }
 
   var s = skrollr.init({
     keyframe: function(element,name, direction) {
