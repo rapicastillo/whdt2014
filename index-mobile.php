@@ -60,15 +60,12 @@
         <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
 
         <div class='row affected-natl'>
-          <div class='col-xs-12 col-sm-6 text-center'><img src='mob/3-china.png'></div>
-          <div class='col-xs-12 col-sm-6 text-center'><img src='mob/3-philippines.png'></div>
-        </div>
+          <div class='col-xs-12 col-sm-4 text-center'><img src='mob/3-china.png'></div>
+          <div class='col-xs-12 col-sm-4 text-center'><img src='mob/3-philippines.png'></div>
+          <div class='col-xs-12 col-sm-4 text-center'><img src='mob/3-india.png'></div>
         <div class='row  affected-natl'>
-          <div class='col-xs-12 col-sm-6 text-center'><img src='mob/3-india.png'></div>
-          <div class='col-xs-12 col-sm-6 text-center'><img src='mob/3-vietnam.png'></div>
-        </div>
-        <div class='row  affected-natl'>
-          <div class='col-xs-12 col-sm-6 text-center'><img src='mob/3-thailand.png'></div>
+          <div class='col-xs-12 col-sm-4 text-center'><img src='mob/3-vietnam.png'></div>
+          <div class='col-xs-12 col-sm-4 text-center'><img src='mob/3-thailand.png'></div>
         </div>
 
       </div>
@@ -97,20 +94,17 @@
         <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
 
         <div class='row'>
-          <div class='col-sm-12 text-center'>
+          <div class='col-sm-4 text-center'>
             <p><img src='mob/4-people.png'/></p>
             <h4><span class='red'>Asylum Seekers:</span><br /><span class='black'>1.2 million</span></h4>
           </div>
 
-          <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
-          <div class='col-sm-12 text-center'>
+          <div class='col-sm-4 text-center'>
             <p><img src='mob/4-people.png'/></p>
             <h4><span class='red'>Internally displaced people:</span><br /><span class='black' style='display: inline-block'>33.3 million</span></h4>
           </div>
 
-
-          <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
-          <div class='col-sm-12 text-center'>
+          <div class='col-sm-4 text-center'>
             <p><img src='mob/4-people.png'/></p>
             <h4><span class='red'>Refugees:</span><br /><span class='black' style='display: inline-block'>16.7 million</span></h4>
           </div>
