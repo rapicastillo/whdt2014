@@ -170,13 +170,15 @@
         <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
         <div class='row'><div class='col-sm-12'>&nbsp;</div></div>
         <div class='row'>
-          <div class='col-sm-12 text-center'>
+          <div class='col-sm-4 text-center'>
             <img src='mob/6-twitter.png' width='70%' />
             <h4 class='white'>Make the most out of new opportunities</h4>
-            <br/>
+          </div>
+          <div class='col-sm-4 text-center'>
             <img src='mob/6-house.png' width='70%' />
             <h4 class='white'>Overcome challenges and build capacity</h4>
-            <br/>
+          </div>
+          <div class='col-sm-4 text-center'>
             <img src='mob/6-military.png' width='70%' />
             <h4 class='white'>Deliver Effectively</h4>
           </div>
